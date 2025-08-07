@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Master Map</name>
+  
+  <NetworkLink>
+    <name>Tile 1</name>
+    <Region>
+      <LatLonAltBox>
+        <north>-0.014801138600770258</north>
+        <south>-14.277560499994491</south>
+        <east>-122.9050802323707</east>
+        <west>-176.64211929608433</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_1.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 2</name>
+    <Region>
+      <LatLonAltBox>
+        <north>14.24795822279295</north>
+        <south>-0.014801138600770258</south>
+        <east>145.78011508619753</east>
+        <west>92.04307602248389</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_2.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 3</name>
+    <Region>
+      <LatLonAltBox>
+        <north>28.510717584186672</north>
+        <south>14.24795822279295</south>
+        <east>-122.9050802323707</east>
+        <west>-176.64211929608433</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_3.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 4</name>
+    <Region>
+      <LatLonAltBox>
+        <north>28.510717584186672</north>
+        <south>14.24795822279295</south>
+        <east>-69.16804116865706</east>
+        <west>-122.9050802323707</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_4.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 5</name>
+    <Region>
+      <LatLonAltBox>
+        <north>28.510717584186672</north>
+        <south>14.24795822279295</south>
+        <east>-15.431002104943396</east>
+        <west>-69.16804116865704</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_5.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 6</name>
+    <Region>
+      <LatLonAltBox>
+        <north>28.510717584186672</north>
+        <south>14.24795822279295</south>
+        <east>145.78011508619753</east>
+        <west>92.04307602248389</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_6.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 7</name>
+    <Region>
+      <LatLonAltBox>
+        <north>42.77347694558039</north>
+        <south>28.510717584186672</south>
+        <east>-122.9050802323707</east>
+        <west>-176.64211929608433</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_7.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 8</name>
+    <Region>
+      <LatLonAltBox>
+        <north>42.77347694558039</north>
+        <south>28.510717584186672</south>
+        <east>-69.16804116865706</east>
+        <west>-122.9050802323707</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_8.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 9</name>
+    <Region>
+      <LatLonAltBox>
+        <north>57.03623630697411</north>
+        <south>42.77347694558039</south>
+        <east>-122.9050802323707</east>
+        <west>-176.64211929608433</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_9.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 10</name>
+    <Region>
+      <LatLonAltBox>
+        <north>57.03623630697411</north>
+        <south>42.77347694558039</south>
+        <east>-69.16804116865706</east>
+        <west>-122.9050802323707</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_10.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 11</name>
+    <Region>
+      <LatLonAltBox>
+        <north>57.03623630697411</north>
+        <south>42.77347694558039</south>
+        <east>-15.431002104943396</east>
+        <west>-69.16804116865704</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_11.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>Tile 12</name>
+    <Region>
+      <LatLonAltBox>
+        <north>71.29899566836784</north>
+        <south>57.03623630697412</south>
+        <east>-122.9050802323707</east>
+        <west>-176.64211929608433</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>https://adrienhoff.github.io/National_Fire_and_EMS_Stations/tile_12.kml</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>3600</refreshInterval>
+    </Link>
+  </NetworkLink>
+
+</Document>
+</kml>

@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="tile_3" id="tile_3">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="PERMANENT_" type="string"></SimpleField>
+	<SimpleField name="SOURCE_FEA" type="string"></SimpleField>
+	<SimpleField name="SOURCE_DAT" type="string"></SimpleField>
+	<SimpleField name="SOURCE_D_1" type="string"></SimpleField>
+	<SimpleField name="SOURCE_ORI" type="string"></SimpleField>
+	<SimpleField name="DATA_SECUR" type="float"></SimpleField>
+	<SimpleField name="DISTRIBUTI" type="string"></SimpleField>
+	<SimpleField name="LOADDATE" type="string"></SimpleField>
+	<SimpleField name="FTYPE" type="int"></SimpleField>
+	<SimpleField name="FCODE" type="int"></SimpleField>
+	<SimpleField name="ISLANDMARK" type="int"></SimpleField>
+	<SimpleField name="POINTLOCAT" type="int"></SimpleField>
+	<SimpleField name="ADMINTYPE" type="string"></SimpleField>
+	<SimpleField name="ADDRESSBUI" type="string"></SimpleField>
+	<SimpleField name="ADDRESS" type="string"></SimpleField>
+	<SimpleField name="CITY" type="string"></SimpleField>
+	<SimpleField name="STATE" type="string"></SimpleField>
+	<SimpleField name="ZIPCODE" type="string"></SimpleField>
+	<SimpleField name="GNIS_ID" type="string"></SimpleField>
+	<SimpleField name="FOOT_ID" type="string"></SimpleField>
+	<SimpleField name="COMPLEX_ID" type="string"></SimpleField>
+	<SimpleField name="GLOBALID" type="string"></SimpleField>
+	<SimpleField name="AppleMaps" type="string"></SimpleField>
+</Schema>
+<Folder><name>tile_3</name>
+  <Placemark>
+	<name>2890796</name>
+	<name>1</name>
+	<description>db3e9a20-bf84-4597-957d-6b016e8ef4f0</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10508506</SimpleData>
+		<SimpleData name="PERMANENT_">be56f329-0b81-51a6-9c97-4ce58f782109</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/2/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">94 - 840 Lumiaina Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Waipahu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96797</SimpleData>
+		<SimpleData name="STATE">2638009</SimpleData>
+		<SimpleData name="FOOT_ID">{1FA8CE9A-B548-4D71-8CA8-9E31C8C6DD5A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.4004401257386,-158.00498343066124&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.004983430661,21.4004401257386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2898119</name>
+	<name>1</name>
+	<description>e6b9b536-4b94-4516-b849-a87ebed88dca</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">0fe46526-e502-546d-b3af-d1a964a9b08d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/26/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">5 - 4390 Kuhio Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hanalei</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96722</SimpleData>
+		<SimpleData name="STATE">2638038</SimpleData>
+		<SimpleData name="FOOT_ID">{FC3DA45F-E1B7-469C-8C6F-EBC6C8DB7EE3}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=22.212312347222078,-159.47910364324343&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.479103643243,22.2123123472221</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2898147</name>
+	<name>1</name>
+	<description>ee2a5261-2012-4149-8144-31b61d52d039</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484916</SimpleData>
+		<SimpleData name="PERMANENT_">748c9d6b-cbe2-5e1b-bc8e-5c748ac1c180</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 11/5/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Ea Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Captain Cook</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96704</SimpleData>
+		<SimpleData name="STATE">2637969</SimpleData>
+		<SimpleData name="FOOT_ID">{80A37EC6-3B6F-4428-B804-671D9283C258}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.29050408152082,-155.8736497088003&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.8736497088,19.2905040815208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2906413</name>
+	<name>1</name>
+	<description>049df275-ae75-4015-91fe-a0edae0084d2</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484928</SimpleData>
+		<SimpleData name="PERMANENT_">93de765b-c6e1-53d0-b798-502d997a2c32</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/3/2019</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">11-3602 Lehua Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Mountain View</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96771</SimpleData>
+		<SimpleData name="STATE">2638033</SimpleData>
+		<SimpleData name="FOOT_ID">{68DF74D2-8DB2-4E04-BB67-6B4C95E3BCCB}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.535075972209086,-155.08992488600853&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.089924886009,19.5350759722091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2906907</name>
+	<name>1</name>
+	<description>894ee53d-2997-4706-8c4c-db83747f91b6</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484925</SimpleData>
+		<SimpleData name="PERMANENT_">4c43967c-8e72-56da-8cfb-5b0c9ce0f847</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/14/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">28 - 2923 Kumula Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Pepeekeo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96783</SimpleData>
+		<SimpleData name="STATE">2638030</SimpleData>
+		<SimpleData name="FOOT_ID">{5F4254F2-4DEE-4994-8B88-B72736FC84D3}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.83462630974323,-155.1049592224818&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.104959222482,19.8346263097432</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2910782</name>
+	<name>1</name>
+	<description>cb569625-2239-413b-b394-0c4381385783</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484904</SimpleData>
+		<SimpleData name="PERMANENT_">6c994ca7-5bc0-59b5-a85a-f0b9df719200</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/7/2019</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">120 Alanui Kaimike Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kaunakakai</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96748</SimpleData>
+		<SimpleData name="STATE">2637985</SimpleData>
+		<SimpleData name="FOOT_ID">{D9876C8E-703F-4A0B-BED8-21F2F6B1A252}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.08854321048796,-157.0111281388562&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.011128138856,21.088543210488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2921158</name>
+	<name>1</name>
+	<description>50992e0a-0d63-4623-8a06-320140bda2f3</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484954</SimpleData>
+		<SimpleData name="PERMANENT_">4210de26-24a0-53b2-b5ca-95bd724f5a6b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/6/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">95 - 5649 Mamalahoa Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Naalehu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96772</SimpleData>
+		<SimpleData name="STATE">2638007</SimpleData>
+		<SimpleData name="FOOT_ID">{A22FC268-2370-443B-9D9F-8CAF7E261EB4}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.0614819816311,-155.5867102305827&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.586710230583,19.0614819816311</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2921676</name>
+	<name>1</name>
+	<description>d11a7640-df33-4d88-9d3c-71b18e0e6e20</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484895</SimpleData>
+		<SimpleData name="PERMANENT_">e04ae926-49a7-534b-b42e-857a4ef1cea9</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/27/2023</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">42 - 510 Kalaniana'ole Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kailua</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96734</SimpleData>
+		<SimpleData name="STATE">2638015</SimpleData>
+		<SimpleData name="FOOT_ID">{BD56647F-DC2D-4746-8222-C39C33D98B06}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.37743653603078,-157.7505811317084&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.750581131708,21.3774365360308</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2928342</name>
+	<name>1</name>
+	<description>3250db12-bd7a-4387-b8cf-9b182453b126</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484911</SimpleData>
+		<SimpleData name="PERMANENT_">{4CCD9FAA-82AA-4DE1-99F4-1AE3B6EAFEB1}</SimpleData>
+		<SimpleData name="SOURCE_FEA">U.S. Geographic Names Information System (GNIS)</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey GNIS Web-Based Transaction Forms</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">8735 East Kamehameha V Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kaunakakai</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96748</SimpleData>
+		<SimpleData name="STATE">2637978</SimpleData>
+		<SimpleData name="FOOT_ID">{17BAA6E8-1FCD-4531-9B45-AFE229C83C2A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.072704664707594,-156.79607648996975&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.79607648997,21.0727046647076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2934355</name>
+	<name>1</name>
+	<description>a090e2de-3a31-4398-ada3-a394368a57ea</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484912</SimpleData>
+		<SimpleData name="PERMANENT_">078482a6-7ef4-54ed-956a-6fe97d66d383</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/2/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">300 Kilohana Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kihei</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96753-9404</SimpleData>
+		<SimpleData name="STATE">2637984</SimpleData>
+		<SimpleData name="FOOT_ID">{54FA9FD7-9F8E-4C3E-BE4E-59874D444D9B}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.706088684390057,-156.43696049670953&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.43696049671,20.7060886843901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2935784</name>
+	<name>1</name>
+	<description>3f7bc0b7-8f27-400d-a57a-828227834126</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484869</SimpleData>
+		<SimpleData name="PERMANENT_">95767586-d98c-54c9-9deb-0be77162f848</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/16/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">56 - 460 Kamehameha Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kahuku</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96731</SimpleData>
+		<SimpleData name="STATE">1905151</SimpleData>
+		<SimpleData name="FOOT_ID">{27FF5DB5-F4E0-4857-89E1-EF09CE61AF88}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.674861730451482,-157.94579458860215&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.945794588602,21.6748617304515</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2939777</name>
+	<name>1</name>
+	<description>852d19f0-23d6-4200-9f74-42a8b802a5b4</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">82337844-2b48-5265-8ae1-1e8b832782dc</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/4/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Wright Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Volcano</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96785</SimpleData>
+		<SimpleData name="STATE">2637999</SimpleData>
+		<SimpleData name="FOOT_ID">{192F8A3B-58C7-4B48-A7BB-64A023A49C7D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.434496008548628,-155.23065285744119&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.230652857441,19.4344960085486</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2947363</name>
+	<name>1</name>
+	<description>aae2a61b-21e7-433e-9eee-3061b6707ffd</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484915</SimpleData>
+		<SimpleData name="PERMANENT_">9edaa2f8-118c-5bc9-bb94-5955e584c00d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/3/2019</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Ala Kahua Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kamuela</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96743</SimpleData>
+		<SimpleData name="STATE">2637973</SimpleData>
+		<SimpleData name="FOOT_ID">{15A51E1F-778A-4C32-BF36-9BDF40D783AE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.082639843661003,-155.83274467701148&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.832744677011,20.082639843661</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2949168</name>
+	<name>1</name>
+	<description>a5fcd843-cae0-4efd-8032-381408d1f16e</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484877</SimpleData>
+		<SimpleData name="PERMANENT_">65400976-da75-5cb6-bcd9-e34ab4863f6c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/17/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">51 - 369 Kamehameha Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kaaawa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96730</SimpleData>
+		<SimpleData name="STATE">2638013</SimpleData>
+		<SimpleData name="FOOT_ID">{9CF77781-1BDB-45A9-9721-146C8C8DE37D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.556680533875827,-157.85465387069078&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.854653870691,21.5566805338758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2952516</name>
+	<name>1</name>
+	<description>65b5b9c5-d0b8-4bc4-b866-2c43021aadab</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484875</SimpleData>
+		<SimpleData name="PERMANENT_">ea71a7d5-7aca-52eb-b434-0a1e1a15174d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/28/2023</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">45 Kaneohe Bay Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kailua</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96734</SimpleData>
+		<SimpleData name="STATE">2637994</SimpleData>
+		<SimpleData name="FOOT_ID">{96011C40-F134-4EA7-B72C-B37A340CF0C9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.423803520953893,-157.74971912953436&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.749719129534,21.4238035209539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2954377</name>
+	<name>1</name>
+	<description>723a1de2-1f39-4a0b-8698-0cd6acab1a87</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484933</SimpleData>
+		<SimpleData name="PERMANENT_">d8c7b690-68a1-59f4-90e0-7ddba947d3c8</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/11/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="POINTLOCAT">0</SimpleData>
+		<SimpleData name="ADMINTYPE">67 - 1026 Palekaiko Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kamuela</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96743</SimpleData>
+		<SimpleData name="STATE">2638029</SimpleData>
+		<SimpleData name="FOOT_ID">{2353D898-BF9C-41C8-965B-B6E7F158788A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.854297912791456,-155.654489712828&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.654489712828,19.8542979127915</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2968674</name>
+	<name>1</name>
+	<description>49bb3128-e443-4dd7-9583-be30fdb5eab8</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10142149</SimpleData>
+		<SimpleData name="PERMANENT_">c87e05e6-353e-588f-9323-2e4b744f6ae6</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/4/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="POINTLOCAT">0</SimpleData>
+		<SimpleData name="ADMINTYPE">Access Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hilo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96720</SimpleData>
+		<SimpleData name="STATE">2638035</SimpleData>
+		<SimpleData name="FOOT_ID">{8142BC47-5ED8-4886-9C5C-9DE5BDC5DBE2}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.717902780944293,-155.0447286301881&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.044728630188,19.7179027809443</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2973090</name>
+	<name>1</name>
+	<description>f8c66b8e-fc63-44df-8246-f6963d95791d</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">8d32c658-c6c3-5085-baa9-6fc2ae9a76e3</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 3/27/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">2810 Poipu Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Koloa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96756</SimpleData>
+		<SimpleData name="STATE">2638037</SimpleData>
+		<SimpleData name="FOOT_ID">{1CF6F468-9F7C-44C5-B967-BF9C865F0258}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.883771718160855,-159.4674158894293&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.467415889429,21.8837717181609</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2990950</name>
+	<name>1</name>
+	<description>91bd125a-47dc-46ef-9ad0-2c508d5cce22</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484874</SimpleData>
+		<SimpleData name="PERMANENT_">2ca83077-6c31-591b-84fb-003c96fe5bc3</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/26/2023</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">211 Ku'ulei Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kailua</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96734</SimpleData>
+		<SimpleData name="STATE">2637981</SimpleData>
+		<SimpleData name="FOOT_ID">{AF219FF9-6174-49A3-AC05-88860217C18E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.396602529712958,-157.73937413366815&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.739374133668,21.396602529713</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3009364</name>
+	<name>1</name>
+	<description>cdaed779-3732-4ead-8c16-9da9e5a56cd9</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484941</SimpleData>
+		<SimpleData name="PERMANENT_">104c3479-d903-5608-a9a1-942ee4178c1e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/22/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">54 - 3900 Akoni Pule Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kapaau</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96755</SimpleData>
+		<SimpleData name="STATE">2637959</SimpleData>
+		<SimpleData name="FOOT_ID">{DC2AC167-0CB9-43BE-A30A-8D9ABC6B9383}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.22932843996731,-155.79853751479453&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.798537514795,20.2293284399673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3010931</name>
+	<name>1</name>
+	<description>a34f9292-08f2-4f5e-b806-2f67ebf2e416</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484922</SimpleData>
+		<SimpleData name="PERMANENT_">4bfe3ffd-ab22-5010-9afe-d423e30c0f05</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/7/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">94 - 1604 Makali'i Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Mountain View</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96771</SimpleData>
+		<SimpleData name="STATE">2638017</SimpleData>
+		<SimpleData name="FOOT_ID">{2D2256A6-A46B-48EE-AC39-E1207B0B24F5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.04043058420696,-155.6355993805789&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.635599380579,19.040430584207</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3012402</name>
+	<name>1</name>
+	<description>5954d3ae-2f4f-459d-a7c3-8a1f72cbb52e</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484879</SimpleData>
+		<SimpleData name="PERMANENT_">33e06717-2480-559f-8074-c7c2c313f439</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/15/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">5046 Kalanianaole Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96821</SimpleData>
+		<SimpleData name="STATE">1905222</SimpleData>
+		<SimpleData name="FOOT_ID">{98A5F8FB-15B0-422D-A512-2CFED8950A3F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.276992735334325,-157.75969846619753&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.759698466198,21.2769927353343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3013962</name>
+	<name>1</name>
+	<description>2062bb20-2efd-4430-ae6a-2f0aec185650</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484943</SimpleData>
+		<SimpleData name="PERMANENT_">3478becb-fc9c-5d68-9c6a-ca596276e30e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 11/16/2020</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">15 - 2605 Keaau - Pahoa Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Pahoa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96776</SimpleData>
+		<SimpleData name="STATE">2637963</SimpleData>
+		<SimpleData name="FOOT_ID">{A051C09A-13F5-457E-A177-E217EDF6B7E6}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.509376146446073,-154.95838938913585&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-154.958389389136,19.5093761464461</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3028700</name>
+	<name>1</name>
+	<description>51301d6e-ead3-4739-8a24-847e30540559</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="PERMANENT_">c96fa865-19f8-5140-b38c-361bd4f76b49</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/4/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">3901 Mokulele Loop</SimpleData>
+		<SimpleData name="ADDRESSBUI">Lihue</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96766</SimpleData>
+		<SimpleData name="FOOT_ID">{1C5A9DD7-E2F6-452F-93B8-C0BBC50FE485}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.9787214051523,-159.33852492598626&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.338524925986,21.9787214051523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3034544</name>
+	<name>1</name>
+	<description>ac645bbb-7c3b-4812-9d18-cfc01df18197</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484890</SimpleData>
+		<SimpleData name="PERMANENT_">b0048b1d-4deb-566e-81a6-44a2899f5567</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/14/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">515 Lunalilo Home Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96825</SimpleData>
+		<SimpleData name="STATE">2638012</SimpleData>
+		<SimpleData name="FOOT_ID">{6ADD76FC-2EFD-4F03-B1AF-3EF604738A6E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.286378791675485,-157.69730529286198&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.697305292862,21.2863787916755</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3037600</name>
+	<name>1</name>
+	<description>0d461a60-3c44-40f5-b9f8-b2d6a9dfb523</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484864</SimpleData>
+		<SimpleData name="PERMANENT_">579e903f-a555-5c98-b235-4fa47247be68</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/5/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">800 Valkenburgh Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96818</SimpleData>
+		<SimpleData name="STATE">2637993</SimpleData>
+		<SimpleData name="FOOT_ID">{0168F4EF-4B31-472F-A6F7-E09E2FC66345}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.339591905947337,-157.93088677376133&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.930886773761,21.3395919059473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3039826</name>
+	<name>1</name>
+	<description>74b5f26c-18f0-43fc-9539-0620529ae000</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484881</SimpleData>
+		<SimpleData name="PERMANENT_">70ba1282-e936-554f-8115-eb4f9915cf34</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/17/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">115 Wyllie Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96817</SimpleData>
+		<SimpleData name="STATE">1904909</SimpleData>
+		<SimpleData name="FOOT_ID">{F7AD8533-591A-45E3-BBB0-5D4111C7EF3F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.32817070187594,-157.8468719021972&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.846871902197,21.3281707018759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3039971</name>
+	<name>1</name>
+	<description>971c9bd9-326b-4f91-9e15-06231d017364</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484921</SimpleData>
+		<SimpleData name="PERMANENT_">c9f6baef-4ac6-5333-b504-8b1cdbdbeade</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 11/12/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Kona Village Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kailua Kona</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96740</SimpleData>
+		<SimpleData name="STATE">2637972</SimpleData>
+		<SimpleData name="FOOT_ID">{EB9ABE0C-423D-413C-9A5C-983BC0F617C9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.831714926156792,-155.98179565291872&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.981795652919,19.8317149261568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3040226</name>
+	<name>1</name>
+	<description>da44bc48-6abb-4649-93db-93e4a69f58f2</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484909</SimpleData>
+		<SimpleData name="PERMANENT_">c48b08e3-8947-5fc5-9741-d74ec429ca6c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/11/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">200 Dairy Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kahului</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96732-2978</SimpleData>
+		<SimpleData name="STATE">2637991</SimpleData>
+		<SimpleData name="FOOT_ID">{1A97B654-B3F6-484A-81E0-58E9F8AF37D3}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.87958717632372,-156.45678133363822&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.456781333638,20.8795871763237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3040324</name>
+	<name>1</name>
+	<description>f67e1ad4-ce59-4339-86db-e519a82e5836</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484862</SimpleData>
+		<SimpleData name="PERMANENT_">19b1fb77-2521-55ea-8d24-9b6394d07bc7</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/17/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1742 North King Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96819</SimpleData>
+		<SimpleData name="STATE">1904614</SimpleData>
+		<SimpleData name="FOOT_ID">{A5A25FE2-CB71-43E6-9397-EE627F3312A9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.331451341798534,-157.8759551469255&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.875955146925,21.3314513417985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3041498</name>
+	<name>1</name>
+	<description>43023511-35b8-4e53-a6d1-762511c43e5c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484905</SimpleData>
+		<SimpleData name="PERMANENT_">f24634c0-d8a6-5c34-918a-cc08d7a0abc6</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/11/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1345 Fraser Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Lanai City</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96763</SimpleData>
+		<SimpleData name="STATE">2637989</SimpleData>
+		<SimpleData name="FOOT_ID">{1595554E-BFD1-4E72-B9E0-9958746901B7}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.81862453854832,-156.91866476611094&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.918664766111,20.8186245385483</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3043795</name>
+	<name>1</name>
+	<description>c42fa380-dff5-4f09-b8f3-f6ca4023a46c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484872</SimpleData>
+		<SimpleData name="PERMANENT_">2dfef753-a8a5-550c-a585-f1bda882b96b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/8/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">640 California Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Wahiawa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96786</SimpleData>
+		<SimpleData name="STATE">2637997</SimpleData>
+		<SimpleData name="FOOT_ID">{A24B341B-D2A3-4260-B48C-1E712A6DA67D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.49697291790094,-158.02787160322015&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.02787160322,21.4969729179009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3043814</name>
+	<name>1</name>
+	<description>cbba36f7-76dc-4a11-99aa-fe911b623bd0</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484888</SimpleData>
+		<SimpleData name="PERMANENT_">9f7f2447-b432-5199-a521-ca9e0a30459a</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/9/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1861 Kamehameha IV Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96819</SimpleData>
+		<SimpleData name="STATE">1956363</SimpleData>
+		<SimpleData name="FOOT_ID">{9F192B8E-5271-4461-913E-C19A8F13054D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.34403602341586,-157.87082819524008&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.87082819524,21.3440360234159</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3045339</name>
+	<name>1</name>
+	<description>80cf982d-3a04-4828-a8c0-28f26471e201</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484896</SimpleData>
+		<SimpleData name="PERMANENT_">ffbcae31-6d31-5b14-a9fe-b19a1db760d9</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/2/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">2020 Lauwiliwili Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kapolei</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96707</SimpleData>
+		<SimpleData name="STATE">2638011</SimpleData>
+		<SimpleData name="FOOT_ID">{FD88EBBF-1FE7-4542-BBE8-5CE054DE3956}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.324380811867314,-158.09063099556596&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.090630995566,21.3243808118673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3051093</name>
+	<name>1</name>
+	<description>dbc63357-6aab-42b9-be03-56c83dbc53f2</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484944</SimpleData>
+		<SimpleData name="PERMANENT_">506f6025-9fff-5272-acd2-b2c2b2943437</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/14/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">82 - 6120 Mamalahoa Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Captain Cook</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96704</SimpleData>
+		<SimpleData name="STATE">2637982</SimpleData>
+		<SimpleData name="FOOT_ID">{2BD6A7E4-F88D-4990-83A1-C4FEAE2C552A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.48849182509014,-155.909036489906&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.909036489906,19.4884918250901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3053961</name>
+	<name>1</name>
+	<description>0ebdcdbb-cfcf-49ca-8f4f-02eb4abee49c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10167704</SimpleData>
+		<SimpleData name="PERMANENT_">bcc369f4-4f90-5fd0-87d8-590d9c436e1c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/3/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">4 - 757 Kuhio Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kapaa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96746</SimpleData>
+		<SimpleData name="STATE">2638041</SimpleData>
+		<SimpleData name="FOOT_ID">{0961C663-F43C-4539-9E9F-D7B9B0995629}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=22.060441729863054,-159.3223048335556&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.322304833556,22.0604417298631</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3056097</name>
+	<name>1</name>
+	<description>54b2cfff-49df-4afb-89b7-53a91ed597e4</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">2d671d2d-0dca-5b2c-ac99-619b2e079a37</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/17/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1334 Nimitz Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96817</SimpleData>
+		<SimpleData name="STATE">1956362</SimpleData>
+		<SimpleData name="FOOT_ID">{39BE946F-3A2A-46E6-B634-6E747CC9FDFD}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.321573186183276,-157.87879328104282&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.878793281043,21.3215731861833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3056200</name>
+	<name>1</name>
+	<description>70fd2852-2674-4456-afd6-6e8636a6b0e6</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484939</SimpleData>
+		<SimpleData name="PERMANENT_">30d6e1d8-ee1f-5d81-b9dd-b27d32c775d4</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 11/7/2016</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">466 Kinoole Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hilo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96720</SimpleData>
+		<SimpleData name="STATE">2638021</SimpleData>
+		<SimpleData name="FOOT_ID">{E59C50BB-07BB-4CB6-AC7D-0EDBD3648DD2}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.72029714754245,-155.0862678122105&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.086267812211,19.7202971475424</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3057932</name>
+	<name>1</name>
+	<description>547dfbbe-64f7-4f56-9ef9-64e23f66c69b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484937</SimpleData>
+		<SimpleData name="PERMANENT_">af752b3f-671f-5217-b6c1-66144ad9b766</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 12/29/2023</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">43 - 977 Pauilo Hui Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kamuela</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96743</SimpleData>
+		<SimpleData name="STATE">2638018</SimpleData>
+		<SimpleData name="FOOT_ID">{F807F3E6-5A07-406C-BD38-C12727D4D51D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.039298836784663,-155.36638879280753&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.366388792808,20.0392988367847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3061237</name>
+	<name>1</name>
+	<description>d842226c-b095-4f06-8f04-6f0421543365</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="PERMANENT_">ebe5a046-1fcd-5602-9a3c-80bfdab7eb85</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 2/22/2022</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">91 - 1211 Kinoiki Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kapolei</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96707</SimpleData>
+		<SimpleData name="FOOT_ID">{1CC814AE-1815-4578-9F3B-3A2C46025738}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.336316561655178,-158.05414705579815&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.054147055798,21.3363165616552</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3062319</name>
+	<name>1</name>
+	<description>fd92c950-ea2e-4b24-8a1c-71863948fa25</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484907</SimpleData>
+		<SimpleData name="PERMANENT_">06036dbe-cfee-5599-a15e-acd732232169</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/26/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">50 Calasa Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kula</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96790</SimpleData>
+		<SimpleData name="STATE">2638020</SimpleData>
+		<SimpleData name="FOOT_ID">{653E47E8-1741-403F-9F59-B41A8598BE00}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.757863663246276,-156.32921952004148&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.329219520041,20.7578636632463</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3065152</name>
+	<name>1</name>
+	<description>234c523d-0d29-4b57-a294-e06917183b44</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">e62ccf5c-9847-5236-bb5b-5ba0fc210de3</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/11/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">9835 Kaumualii Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Waimea</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96796</SimpleData>
+		<SimpleData name="STATE">2637957</SimpleData>
+		<SimpleData name="FOOT_ID">{3C434FE1-56D6-488C-BBD0-336BF6666ECE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.955503271014738,-159.66822149676068&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.668221496761,21.9555032710147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3068800</name>
+	<name>1</name>
+	<description>2854e5b1-f841-48a5-9c79-c74465ca3933</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484901</SimpleData>
+		<SimpleData name="PERMANENT_">d0c943dc-eb19-5c1f-8ace-61c17f02ef7c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/25/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">11 Waimahaihai Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kihei</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96753-8015</SimpleData>
+		<SimpleData name="STATE">2637990</SimpleData>
+		<SimpleData name="FOOT_ID">{65662B48-7744-4F2F-9FFC-7D7308296D87}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.73477086906184,-156.45348341674725&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.453483416747,20.7347708690618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3074490</name>
+	<name>1</name>
+	<description>5af42aa4-e047-4a53-a4a5-f4796ee10ea1</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484860</SimpleData>
+		<SimpleData name="PERMANENT_">0a369dc1-5473-55e7-9e1d-1007620d7d6e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/16/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">601 North Kuakini Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96817</SimpleData>
+		<SimpleData name="STATE">1946771</SimpleData>
+		<SimpleData name="FOOT_ID">{2725A19E-3BAE-48C8-AD0D-82B7C997F44B}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.32431976660373,-157.85830073373015&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.85830073373,21.3243197666037</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3098452</name>
+	<name>1</name>
+	<description>ab65f48e-59d5-48ac-a016-647bf402e540</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10167710</SimpleData>
+		<SimpleData name="PERMANENT_">76d703a6-381c-5b31-9436-125d6c6c54c7</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 3/25/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1 - 3787 Kaumualii Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hanapepe</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96716</SimpleData>
+		<SimpleData name="STATE">2638039</SimpleData>
+		<SimpleData name="FOOT_ID">{DB999FB5-6335-4F98-9D04-3D7CA91D8A21}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.909553346447932,-159.58838753495095&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.588387534951,21.9095533464479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3105442</name>
+	<name>1</name>
+	<description>4f5c902b-4fc2-4e18-8693-9c09477115ec</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484917</SimpleData>
+		<SimpleData name="PERMANENT_">556e75a8-fcb8-5cb9-9374-cc1e650ee6f8</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/5/2019</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Milolii Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Captain Cook</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96704</SimpleData>
+		<SimpleData name="STATE">2638028</SimpleData>
+		<SimpleData name="FOOT_ID">{8BB55272-D4E5-4B44-9B17-2C89FAD35503}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.20243498967753,-155.8866847073444&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.886684707344,19.2024349896775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3106016</name>
+	<name>1</name>
+	<description>e1fcddba-b5b4-4ebb-90d3-90b3454dc7ed</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484956</SimpleData>
+		<SimpleData name="PERMANENT_">509b1266-ac1c-5af1-b087-9b0160757bdc</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/1/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">5901 Paauau Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Pahala</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96777</SimpleData>
+		<SimpleData name="STATE">2638031</SimpleData>
+		<SimpleData name="FOOT_ID">{C93A9942-11E2-4CFF-BE92-E5531E7263EF}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.200962525955728,-155.4731848596454&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.473184859645,19.2009625259557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3106044</name>
+	<name>1</name>
+	<description>eaad0b43-a3a2-4f39-828f-038ce631b914</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484882</SimpleData>
+		<SimpleData name="PERMANENT_">37b5a270-3137-5bb2-995a-9db95be2c940</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/29/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">85 - 645 Farrington Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Waianae</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96792</SimpleData>
+		<SimpleData name="STATE">2638014</SimpleData>
+		<SimpleData name="FOOT_ID">{CB1E8584-CCA6-4FE2-8A1F-32D9EE1E2456}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.449966333508673,-158.1916746645505&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.191674664551,21.4499663335087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3107732</name>
+	<name>1</name>
+	<description>b495e06e-466c-4036-8d08-093b24d02ca7</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484886</SimpleData>
+		<SimpleData name="PERMANENT_">627ff884-7ded-50ee-be7e-1f4d1f5b49fc</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 3/21/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">2835 Ala Ilima Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96818</SimpleData>
+		<SimpleData name="STATE">1956370</SimpleData>
+		<SimpleData name="FOOT_ID">{C5938FCD-9731-424C-8765-C1A303430F48}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.345161360739795,-157.90078118995743&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.900781189957,21.3451613607398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3110828</name>
+	<name>1</name>
+	<description>22d7672a-4bdc-4e6e-b8e5-068d09efbf80</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10141537</SimpleData>
+		<SimpleData name="PERMANENT_">c6e0cd2e-c2d9-5ed9-b0a9-2d77691dabb8</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 3/17/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">345 Mayima Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hickam Air Force Base</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96853</SimpleData>
+		<SimpleData name="STATE">2638036</SimpleData>
+		<SimpleData name="FOOT_ID">{67210AA0-BA1E-40A3-BA81-24C3D2156945}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.331550527885316,-157.95200493268683&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.952004932687,21.3315505278853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3111266</name>
+	<name>1</name>
+	<description>8b695fb3-bf8a-490a-ac9e-a96f11109122</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484867</SimpleData>
+		<SimpleData name="PERMANENT_">98cb95ff-6a5b-5e57-bc40-cf32dd698e97</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 12/23/2022</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">59 - 719 Kamehameha Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Haleiwa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96712</SimpleData>
+		<SimpleData name="STATE">1905097</SimpleData>
+		<SimpleData name="FOOT_ID">{1D706D79-6CA7-4423-BD94-48B79DB9A859}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.64846189396264,-158.06265245024866&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.062652450249,21.6484618939626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3115225</name>
+	<name>1</name>
+	<description>d167c1ed-b33d-47a8-b649-caa884efb9b8</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484861</SimpleData>
+		<SimpleData name="PERMANENT_">84276774-cbfb-5aa7-95dd-04567e30adcb</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/15/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">971 Koko Head Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96816</SimpleData>
+		<SimpleData name="STATE">1956360</SimpleData>
+		<SimpleData name="FOOT_ID">{99ED23FC-B8A4-486F-9DD0-BCFF4E429A3C}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.278366027340606,-157.799417083371&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.799417083371,21.2783660273406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3118299</name>
+	<name>1</name>
+	<description>4c7bb04a-5536-48a5-b8e9-c852c337243b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484903</SimpleData>
+		<SimpleData name="PERMANENT_">2b545d2a-e531-5c08-a668-2a26061837ae</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/3/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">179 Hana Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Paia</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96779</SimpleData>
+		<SimpleData name="STATE">2637958</SimpleData>
+		<SimpleData name="FOOT_ID">{DEE52DA9-FC2D-4D98-A5E0-231E8251E765}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.917496746015274,-156.38014593022308&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.380145930223,20.9174967460153</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3135323</name>
+	<name>1</name>
+	<description>aab9685f-a8c0-4012-af77-3c6bddc94900</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484880</SimpleData>
+		<SimpleData name="PERMANENT_">9d601900-0624-505f-9de6-3d742eeca13c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/2/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">91 - 832 Pohakupuna Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Ewa Beach</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96706</SimpleData>
+		<SimpleData name="STATE">1956355</SimpleData>
+		<SimpleData name="FOOT_ID">{55A1BBEB-B1F7-420B-ABDE-AD155404315E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.311342177341533,-158.0095915888173&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.009591588817,21.3113421773415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3138309</name>
+	<name>1</name>
+	<description>0dab2ea2-a9a1-479d-b2a3-f5bccd8f125b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484926</SimpleData>
+		<SimpleData name="PERMANENT_">b45d8334-1ec4-5a90-bb5d-dbfb3b908b27</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/4/2019</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">11-2864 Ala Kapena (Captains Drive)</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kurtistown</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96760</SimpleData>
+		<SimpleData name="STATE">2638032</SimpleData>
+		<SimpleData name="FOOT_ID">{8794E7E1-1A77-4134-AF04-5FB72408070C}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.45904627823665,-155.12989465891857&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.129894658919,19.4590462782366</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3140508</name>
+	<name>1</name>
+	<description>5b45c09c-e3e5-452f-b612-39eead51d436</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484863</SimpleData>
+		<SimpleData name="PERMANENT_">efa8a93a-618c-57d3-9f9f-c5c07d4d1627</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/23/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">381 Kapahulu Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96815</SimpleData>
+		<SimpleData name="STATE">1956375</SimpleData>
+		<SimpleData name="FOOT_ID">{7E12938D-36D6-473D-BE6B-E7E52FA1FA41}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.273063600656762,-157.8163390762348&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.816339076235,21.2730636006568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3141225</name>
+	<name>1</name>
+	<description>20172952-085a-4277-a3b1-895ae3efab44</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="PERMANENT_">79152bf2-6ecd-5fd9-8954-58e0692b0491</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 3/21/2023</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">3rd Street and G street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kailua</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96734</SimpleData>
+		<SimpleData name="FOOT_ID">{CC0400B9-0395-42E1-AF78-A38F608AE9E9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.440226726499787,-157.75547880696254&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.755478806963,21.4402267264998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3142252</name>
+	<name>1</name>
+	<description>46d4604a-adc4-466b-aa8c-84f0337052c3</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484949</SimpleData>
+		<SimpleData name="PERMANENT_">66c960a9-d0dc-553d-adf4-276eba503852</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/4/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">310 Kaumana Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hilo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96720</SimpleData>
+		<SimpleData name="STATE">2638019</SimpleData>
+		<SimpleData name="FOOT_ID">{D1B63292-464B-41BD-B5A7-C86BAF8FDDC4}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.710827751134197,-155.1090351121952&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.109035112195,19.7108277511342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3149897</name>
+	<name>1</name>
+	<description>aee3ed24-4c90-4291-8f3b-9de0d0d30228</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484908</SimpleData>
+		<SimpleData name="PERMANENT_">272b6020-4dad-5a51-b4e3-e524abfd3639</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/30/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">134 Makawao Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Makawao</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96768</SimpleData>
+		<SimpleData name="STATE">2637986</SimpleData>
+		<SimpleData name="FOOT_ID">{8F6C1B53-C992-4C57-BE22-56AA7E4F690F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.835670871827656,-156.3307063971304&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.33070639713,20.8356708718277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3150678</name>
+	<name>1</name>
+	<description>804d35b3-71b5-4ea7-82aa-5b11cf3f04ea</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="PERMANENT_">b8acddd5-f78b-5660-9ee3-e8c3f9d3fe51</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 3/21/2023</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Elrod Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96861</SimpleData>
+		<SimpleData name="FOOT_ID">{58EBB851-8317-486A-9763-1DD6D0F84784}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.38661753913735,-157.90622409246282&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.906224092463,21.3866175391374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3171569</name>
+	<name>1</name>
+	<description>bfdb9f61-af42-46ef-961e-2947edca13e3</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484892</SimpleData>
+		<SimpleData name="PERMANENT_">fe4f4145-0466-578d-9ffe-6dbfd8a880ab</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/13/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">95 - 269 Kipapa Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Mililani</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96789</SimpleData>
+		<SimpleData name="STATE">1905147</SimpleData>
+		<SimpleData name="FOOT_ID">{ECB3E418-2F67-4131-B169-54A658A1D306}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.456874739989868,-158.01542043677375&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.015420436774,21.4568747399899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3172856</name>
+	<name>1</name>
+	<description>4500b7f7-9a3a-4210-a138-266962ec26bf</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484891</SimpleData>
+		<SimpleData name="PERMANENT_">35723853-3151-4f23-9b83-fe9e50b05cff</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/7/2025</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_D_1">5</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">92885 Makakilo Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kapolei</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96707</SimpleData>
+		<SimpleData name="STATE">2637995</SimpleData>
+		<SimpleData name="FOOT_ID">{DE94876E-9EEE-4A79-B19A-410902DA0DED}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.35452993049041,-158.08658045845988&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.08658045846,21.3545299304904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3175009</name>
+	<name>1</name>
+	<description>87e779b0-3d99-430a-83cf-b40ccf4b5df5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484927</SimpleData>
+		<SimpleData name="PERMANENT_">6210b90a-8fdc-567c-b280-e56bc7054967</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/5/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">16 - 1325 Moho Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kurtistown</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96760</SimpleData>
+		<SimpleData name="STATE">2638025</SimpleData>
+		<SimpleData name="FOOT_ID">{5F92D397-E806-4DB6-8F66-3C8141C1F41F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.556622611764872,-155.0495920188113&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.049592018811,19.5566226117649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3178067</name>
+	<name>1</name>
+	<description>0c97a61f-727a-4699-aab8-170162616082</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484950</SimpleData>
+		<SimpleData name="PERMANENT_">916fa321-51ba-506f-b9f7-15de3aac0189</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/1/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">68 - 4550 Queen Kaahumanu Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kamuela</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96743</SimpleData>
+		<SimpleData name="STATE">2637960</SimpleData>
+		<SimpleData name="FOOT_ID">{4D05AECA-3CC4-427B-B433-678B6E260B11}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.946496885086262,-155.83419068401182&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.834190684012,19.9464968850863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3183685</name>
+	<name>1</name>
+	<description>3a9571c8-979b-402e-8b9d-417f451c324c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484934</SimpleData>
+		<SimpleData name="PERMANENT_">4e369094-1ffb-58b3-b11f-bbe620c77d83</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/1/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Kaiminani Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kailua Kona</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96740</SimpleData>
+		<SimpleData name="STATE">2637971</SimpleData>
+		<SimpleData name="FOOT_ID">{5B33C2D3-6012-43E5-BF9F-08AD6E9FF24E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.723122291029565,-156.01867120904706&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.018671209047,19.7231222910296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3185603</name>
+	<name>1</name>
+	<description>4835b8ff-e20f-47e0-9daa-78af8056ba5a</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484948</SimpleData>
+		<SimpleData name="PERMANENT_">86fa5048-f75a-56ae-a0f2-34382336459b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/4/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">95 Keaa Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hilo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96720</SimpleData>
+		<SimpleData name="STATE">2637961</SimpleData>
+		<SimpleData name="FOOT_ID">{E971FFFF-15D6-42D3-9426-CCE77CCDCB78}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.724154404092747,-155.05853663820815&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.058536638208,19.7241544040927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3186321</name>
+	<name>1</name>
+	<description>047601b5-907d-4de2-9b73-6ae2f810c9dc</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484866</SimpleData>
+		<SimpleData name="PERMANENT_">87080143-7a97-4e52-aa6a-c4b549847742</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 12/12/2024</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">98 - 1239 Ulune Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Aiea</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96701</SimpleData>
+		<SimpleData name="STATE">2637932</SimpleData>
+		<SimpleData name="FOOT_ID">{C6E8FDA8-698B-48F5-B7B7-FC973931DCA3}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.384046540900723,-157.93139008518753&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.931390085188,21.3840465409007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3189133</name>
+	<name>1</name>
+	<description>232a4661-3daf-4a81-969d-aae7cfd98313</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484946</SimpleData>
+		<SimpleData name="PERMANENT_">b0c914ad-6d56-5081-969d-1585bf7514d3</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/23/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">45 - 3380 Mamane Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honokaa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96727</SimpleData>
+		<SimpleData name="STATE">2638022</SimpleData>
+		<SimpleData name="FOOT_ID">{6BC89C82-1A52-4691-8A26-FF1B7ECFEBAD}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.07715080450415,-155.46282105821086&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.462821058211,20.0771508045042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3189925</name>
+	<name>1</name>
+	<description>e76abe72-1714-4235-83bc-98c9e0bfbc76</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">42676a92-5d7a-5164-8c0a-d043b7c27641</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/12/2016</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1860 Honoapiilani Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Lahaina</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96761</SimpleData>
+		<SimpleData name="STATE">2637975</SimpleData>
+		<SimpleData name="FOOT_ID">{CCD461D8-D3E5-49F2-8077-D3AB80E11759}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.90527344271581,-156.68483913642993&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.68483913643,20.9052734427158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3198656</name>
+	<name>1</name>
+	<description>786ac40e-d733-4cf2-b7b6-0a97f996c534</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484876</SimpleData>
+		<SimpleData name="PERMANENT_">4504bac3-2a6a-55e0-893c-9bdc0a635304</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 2/14/2022</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">886 1st Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Pearl City</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96782</SimpleData>
+		<SimpleData name="STATE">1904960</SimpleData>
+		<SimpleData name="FOOT_ID">{4416E7FF-8520-4287-B5EA-CB1C2435A7FA}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.39018132724275,-157.97144647733793&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.971446477338,21.3901813272428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3198657</name>
+	<name>1</name>
+	<description>792bedd9-35b3-4765-89dc-633601d4d77f</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484902</SimpleData>
+		<SimpleData name="PERMANENT_">a3cdb7b3-6b4c-5b21-8a2a-884895101692</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/6/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">21 Kinipopo Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Wailuku</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96793-2395</SimpleData>
+		<SimpleData name="STATE">2637987</SimpleData>
+		<SimpleData name="FOOT_ID">{786508C7-E341-4B9E-BB30-C74A12B16FA6}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.887697221417223,-156.49944489676935&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.499444896769,20.8876972214172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3198980</name>
+	<name>1</name>
+	<description>d1ef7828-e27f-4b87-949f-783ee53be9ab</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484952</SimpleData>
+		<SimpleData name="PERMANENT_">68cf8f0d-bae7-5562-a849-27ce9f0b2ee3</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/23/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">36 - 122 Puualaea Homestead Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Laupahoehoe</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96764</SimpleData>
+		<SimpleData name="STATE">2638000</SimpleData>
+		<SimpleData name="FOOT_ID">{B22648AD-D289-4BF9-AA1A-B4F220D745BA}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.983006764683907,-155.23284851809464&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.232848518095,19.9830067646839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3205456</name>
+	<name>1</name>
+	<description>0261ac5d-ba63-4910-8a33-4e1280fec5ea</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484932</SimpleData>
+		<SimpleData name="PERMANENT_">e85c8a74-98a0-5231-b1bd-7499f7bf906e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/23/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">36 - 2285 Old Mamalahoa Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Laupahoehoe</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96764</SimpleData>
+		<SimpleData name="STATE">2637967</SimpleData>
+		<SimpleData name="FOOT_ID">{BD09E0D1-1246-4014-AFB5-6B006B34C973}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.98295282146714,-155.23265379154932&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.232653791549,19.9829528214671</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3206139</name>
+	<name>1</name>
+	<description>b1ee3eb4-61ad-40de-8679-7059f231b023</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484871</SimpleData>
+		<SimpleData name="PERMANENT_">24068d42-6687-5d9d-9c61-32345f9fa996</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/17/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">54 - 064 Kamehameha Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hauula</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96717</SimpleData>
+		<SimpleData name="STATE">1905129</SimpleData>
+		<SimpleData name="FOOT_ID">{9353E999-1BCB-418B-B277-EF89722C617F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.60803206765349,-157.90889885027926&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.908898850279,21.6080320676535</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3206243</name>
+	<name>1</name>
+	<description>cd95f291-6ec5-4830-b16d-c2301ab07f5b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484955</SimpleData>
+		<SimpleData name="PERMANENT_">228d5234-4c97-5cb7-861f-d51d404c2707</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/15/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="POINTLOCAT">0</SimpleData>
+		<SimpleData name="ADMINTYPE">99 - 252 Crater Rim Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hawaii National Park</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96718</SimpleData>
+		<SimpleData name="STATE">2637968</SimpleData>
+		<SimpleData name="FOOT_ID">{D54AD7B7-15C4-478A-B995-8E634AAEA120}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.426276742643292,-155.25424881569268&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.254248815693,19.4262767426433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3206704</name>
+	<name>1</name>
+	<description>3f9daf64-8623-472f-aa46-2ab0fe7e8335</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484857</SimpleData>
+		<SimpleData name="PERMANENT_">b6029599-eb03-5b3c-bc21-6785fc033f16</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/14/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">104 South Beretania Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96813</SimpleData>
+		<SimpleData name="STATE">2637931</SimpleData>
+		<SimpleData name="FOOT_ID">{BC8A554F-7FCE-4072-82C9-AA339278B039}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.31118767531106,-157.8590026372849&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.859002637285,21.3111876753111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3209618</name>
+	<name>1</name>
+	<description>7250b4c0-1074-4ae6-b7ae-e56b2c1b4911</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484870</SimpleData>
+		<SimpleData name="PERMANENT_">c1d02c52-f932-5691-866f-09917f965ef5</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/29/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">66 - 420 Haleiwa Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Haleiwa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96712</SimpleData>
+		<SimpleData name="STATE">1905183</SimpleData>
+		<SimpleData name="FOOT_ID">{9ECBCCA5-6E5B-4D60-8C4A-BFD4A27ACD5A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.586507653443526,-158.11191698739893&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.111916987399,21.5865076534435</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3212900</name>
+	<name>1</name>
+	<description>08c1b67e-27a6-471c-af40-4fffec3254be</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484873</SimpleData>
+		<SimpleData name="PERMANENT_">30d0e362-910f-5352-9cca-acd00fb7c861</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/7/2022</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">45 - 910 Kamehameha Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kaneohe</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96744</SimpleData>
+		<SimpleData name="STATE">1946773</SimpleData>
+		<SimpleData name="FOOT_ID">{080F2B89-7262-49FE-945A-EC2EED0C5F23}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.413558525419447,-157.8004551178592&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.800455117859,21.4135585254194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3219072</name>
+	<name>1</name>
+	<description>b29e1e11-d267-40a9-a08f-92b852202ce5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484945</SimpleData>
+		<SimpleData name="PERMANENT_">1f0286df-371d-5598-9c33-ab78ef13eccd</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 3/15/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">68-1771 Puumelia Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Waikoloa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96738</SimpleData>
+		<SimpleData name="STATE">2637965</SimpleData>
+		<SimpleData name="FOOT_ID">{33B6E7B2-6054-4124-9711-26C42F9C4BF6}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.92488505624457,-155.79380241983299&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.793802419833,19.9248850562446</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3220887</name>
+	<name>1</name>
+	<description>a6186d3f-dabd-4a45-a3c8-dbceb80a78cf</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484910</SimpleData>
+		<SimpleData name="PERMANENT_">ded89d78-b24b-5e11-b894-f020c07a33c7</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/28/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">4655 Hana Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hana</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96713</SimpleData>
+		<SimpleData name="STATE">2637983</SimpleData>
+		<SimpleData name="FOOT_ID">{287201B7-98C2-4F54-BC81-75FBAFD325AE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.761937757515927,-155.99327386090442&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.993273860904,20.7619377575159</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3233146</name>
+	<name>1</name>
+	<description>2015a163-ebf2-45a0-ba8e-267af0aa2c28</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484883</SimpleData>
+		<SimpleData name="PERMANENT_">26eb8e3f-255b-5025-a8bc-84c6f29d9f91</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/13/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">41 - 1301 Kalanianaole Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Waimanalo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96795</SimpleData>
+		<SimpleData name="STATE">1946775</SimpleData>
+		<SimpleData name="FOOT_ID">{E851A969-A7B7-4C94-AD86-A7C8E3674B03}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.34715453117183,-157.71495970397623&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.714959703976,21.3471545311718</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3235506</name>
+	<name>1</name>
+	<description>bc4aea9c-20d7-40e4-82f5-98e08be18546</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">314301f3-16b0-5579-b095-3fed323e2ab4</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/15/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">3345 Kiwila Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96816</SimpleData>
+		<SimpleData name="STATE">1904943</SimpleData>
+		<SimpleData name="FOOT_ID">{6BB9CCE9-FB95-46DB-8083-001476929488}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.299686363270325,-157.7945190116735&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.794519011673,21.2996863632703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3235735</name>
+	<name>1</name>
+	<description>f99e1936-0b4c-47d3-bd62-4e56e6190534</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484930</SimpleData>
+		<SimpleData name="PERMANENT_">0c8c6735-56dd-5ef0-9e4a-21c19dcdf800</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/5/2019</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">15 - 1575 Paradise Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Keaau</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96749</SimpleData>
+		<SimpleData name="STATE">2637979</SimpleData>
+		<SimpleData name="FOOT_ID">{6CB171A6-A51B-4F43-A337-EC5A00A6FD46}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.5742119552711,-154.97418891235162&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-154.974188912352,19.5742119552711</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3241050</name>
+	<name>1</name>
+	<description>b7502fae-7be8-4b35-9879-a48f6ddd5f5b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484859</SimpleData>
+		<SimpleData name="PERMANENT_">46138b2a-266e-5197-9eae-413390a68d31</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/27/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1202 Wilder Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96822</SimpleData>
+		<SimpleData name="STATE">1890679</SimpleData>
+		<SimpleData name="FOOT_ID">{37EDE6EE-C6E5-4AD3-BD27-63535754D8B1}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.30639069426182,-157.83919673409804&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.839196734098,21.3063906942618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3242445</name>
+	<name>1</name>
+	<description>4e2d1781-4d41-4f00-8fdf-09557b7ed9a5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484884</SimpleData>
+		<SimpleData name="PERMANENT_">3a8e145e-f4ec-525e-94b8-82ce80e6011b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/28/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">89 - 334 Nanakuli Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Nanakuli</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96792</SimpleData>
+		<SimpleData name="STATE">2637996</SimpleData>
+		<SimpleData name="FOOT_ID">{2D7A381B-F8D3-47C2-8482-02E94FFBC835}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.38147918518966,-158.13974902138796&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.139749021388,21.3814791851897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3242798</name>
+	<name>1</name>
+	<description>a01ca189-21e3-49b9-a322-338d84df7ae2</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484919</SimpleData>
+		<SimpleData name="PERMANENT_">1d419e31-21cc-50f8-a8af-626329393cb0</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/2/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Government Beach Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Pahoa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96778</SimpleData>
+		<SimpleData name="STATE">2637970</SimpleData>
+		<SimpleData name="FOOT_ID">{F9971BD0-9EDB-4E69-8F40-A305D8123073}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.531507961484035,-154.84686394506994&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-154.84686394507,19.531507961484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3248400</name>
+	<name>1</name>
+	<description>b3f61903-f766-426f-8f3d-b6603e5ce58d</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484858</SimpleData>
+		<SimpleData name="PERMANENT_">92c5ae29-6b4b-5dde-bc6e-e5cc4691205c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/23/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1610 Makaloa Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96814</SimpleData>
+		<SimpleData name="STATE">1956372</SimpleData>
+		<SimpleData name="FOOT_ID">{21CA5DB3-9937-49BA-9383-66E00C71DA34}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.292686398184273,-157.83919673513856&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.839196735139,21.2926863981843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3250488</name>
+	<name>1</name>
+	<description>f3447847-7d79-4c03-a2a5-9d357da986a5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484878</SimpleData>
+		<SimpleData name="PERMANENT_">a920cc9c-c1ac-5911-ba91-4b607e65e6d2</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/26/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">2850 East Manoa Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96822</SimpleData>
+		<SimpleData name="STATE">1946774</SimpleData>
+		<SimpleData name="FOOT_ID">{5A4E00F1-576C-4831-A7E4-716BFED17AFF}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.30975143999326,-157.81081539396502&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.810815393965,21.3097514399933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3251813</name>
+	<name>1</name>
+	<description>69dc6e12-c647-4157-8440-73cfe9064efe</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484898</SimpleData>
+		<SimpleData name="PERMANENT_">15ea1f5a-e294-5542-bdd9-6d98d658c76b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 11/5/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">120 Kapalulu Place</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96819</SimpleData>
+		<SimpleData name="STATE">2638024</SimpleData>
+		<SimpleData name="FOOT_ID">{2A4BC9B3-5114-4945-9F94-77B08DAB81DE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.320310560253635,-157.91108709400743&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.911087094007,21.3203105602536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3253290</name>
+	<name>1</name>
+	<description>13a558cb-4dc8-49ec-8ce4-327a827b0ffb</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484885</SimpleData>
+		<SimpleData name="PERMANENT_">d7545271-d6f2-4d9c-af05-978e58728819</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/2/2024</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">2425 Date Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96826</SimpleData>
+		<SimpleData name="STATE">1946776</SimpleData>
+		<SimpleData name="FOOT_ID">{69AB03F9-1171-481B-952E-AAC4474B3CFA}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.288289965962797,-157.8249908176093&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.824990817609,21.2882899659628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3254032</name>
+	<name>1</name>
+	<description>d9bc0384-a4b4-4342-b045-70e4296d6d49</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484906</SimpleData>
+		<SimpleData name="PERMANENT_">60b6c3d3-1255-5bfa-a4ee-8c6cc0a8bf9e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/25/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">2190 Farrington Avenue</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hoolehua</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96729</SimpleData>
+		<SimpleData name="STATE">2637992</SimpleData>
+		<SimpleData name="FOOT_ID">{2C06627E-5F66-4DEC-8754-2CA8F9165576}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.163347319124473,-157.050300500731&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.050300500731,21.1633473191245</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3255760</name>
+	<name>1</name>
+	<description>cda36082-6593-4bbb-8ff7-b38da47a084b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484894</SimpleData>
+		<SimpleData name="PERMANENT_">8140c6ba-3fa4-5bb5-b028-874d24867e3a</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 2/14/2022</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">98 - 1109 Komo Mai Drive</SimpleData>
+		<SimpleData name="ADDRESSBUI">Pearl City</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96782</SimpleData>
+		<SimpleData name="STATE">1905197</SimpleData>
+		<SimpleData name="FOOT_ID">{7E5FA258-59D2-4066-B175-1D173FC32C15}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.401702160047076,-157.95114698027055&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.951146980271,21.4017021600471</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3262700</name>
+	<name>1</name>
+	<description>4c4e2c9d-c4e2-4541-92b6-4f18648b8543</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484900</SimpleData>
+		<SimpleData name="PERMANENT_">08a499bf-9fa9-5c02-9b59-bf75dd6853a6</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/16/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">4950 Hanawai Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Lahaina</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96761</SimpleData>
+		<SimpleData name="STATE">2637998</SimpleData>
+		<SimpleData name="FOOT_ID">{78C0EF39-1B66-41E6-9BAE-A53669E1E548}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.9849880858039,-156.6680901125486&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.668090112549,20.9849880858039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3268566</name>
+	<name>1</name>
+	<description>d1f923be-77ce-4e21-8b03-cce0e615a5b2</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484897</SimpleData>
+		<SimpleData name="PERMANENT_">3121f63c-7d01-5d3a-8a41-64a222e9d817</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/16/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">111 North Nimitz Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96817</SimpleData>
+		<SimpleData name="STATE">1956376</SimpleData>
+		<SimpleData name="FOOT_ID">{3BE10BC2-8F93-43FA-B6AC-3CE4704E379A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.311342170555843,-157.86528925666295&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.865289256663,21.3113421705558</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3268650</name>
+	<name>1</name>
+	<description>e6ac64c5-d7aa-4309-96b4-45d6db4ad8bc</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484868</SimpleData>
+		<SimpleData name="PERMANENT_">f335556c-5dba-5234-abc7-408f8b647fec</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/2/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">94 - 121 Leonui Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Waipahu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96797</SimpleData>
+		<SimpleData name="STATE">1946772</SimpleData>
+		<SimpleData name="FOOT_ID">{3906D67C-A714-41E5-A359-034F9179F014}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.376808084039983,-158.02234792927464&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-158.022347929275,21.37680808404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3277615</name>
+	<name>1</name>
+	<description>c8aa11c5-4428-4820-8e76-542e3a802bfc</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484938</SimpleData>
+		<SimpleData name="PERMANENT_">c090ef89-c3f6-5625-9f8d-a88fd371695d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/18/2023</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">411 West Kawailani Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hilo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96720</SimpleData>
+		<SimpleData name="STATE">2637988</SimpleData>
+		<SimpleData name="FOOT_ID">{6C005AAA-9178-4E02-A0AE-F26FB564EDE9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.683706927628275,-155.0796148812146&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.079614881215,19.6837069276283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3277819</name>
+	<name>1</name>
+	<description>f8b7854e-2e0e-4124-9291-3cb2ca9b3377</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484940</SimpleData>
+		<SimpleData name="PERMANENT_">98982432-f691-55fd-ada0-aec5fdc34a13</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/3/2019</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">67 - 5175 Kamamalu Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kamuela</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96743</SimpleData>
+		<SimpleData name="STATE">2637964</SimpleData>
+		<SimpleData name="FOOT_ID">{C361F0CD-52C8-4C66-93A0-3B1D6A0E45B7}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=20.02314314081655,-155.6612527718456&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.661252771846,20.0231431408166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3278728</name>
+	<name>1</name>
+	<description>04d3c46e-6801-4bbe-a261-8b3e95f15c11</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10508505</SimpleData>
+		<SimpleData name="PERMANENT_">111525a5-283e-5f2c-8291-c4c1d383c0a1</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/12/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">95 - 1990 Meheula Parkway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Mililani</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96789</SimpleData>
+		<SimpleData name="STATE">2638016</SimpleData>
+		<SimpleData name="FOOT_ID">{87ED2918-4E51-4BB4-86B9-B9C124B6AD8A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.471450692982216,-157.99947500469878&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.999475004699,21.4714506929822</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3282920</name>
+	<name>1</name>
+	<description>9bd17951-a13a-44ff-8630-f4c151a3124d</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484893</SimpleData>
+		<SimpleData name="PERMANENT_">2439aa59-f5c4-57fb-8791-1570627296d0</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/17/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">47 - 304 Waihee Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kaneohe</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96744</SimpleData>
+		<SimpleData name="STATE">2638010</SimpleData>
+		<SimpleData name="FOOT_ID">{64EB4AD9-9356-4523-91E3-264BBED4C478}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.45734203275785,-157.84687189699454&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.846871896995,21.4573420327579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3284195</name>
+	<name>1</name>
+	<description>127c2542-0e26-4181-a398-5f2dd847c23c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484942</SimpleData>
+		<SimpleData name="PERMANENT_">d84a04ed-916b-55f3-9245-fb1de405d742</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/17/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">78 - 7159 Puuloa Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kailua Kona</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96740</SimpleData>
+		<SimpleData name="STATE">2637962</SimpleData>
+		<SimpleData name="FOOT_ID">{1474A158-8289-42E6-B419-EE3BA8073021}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.560511010098555,-155.9405614357599&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.94056143576,19.5605110100986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3291628</name>
+	<name>1</name>
+	<description>4c281a97-1704-44aa-bb6a-15f82ca1fcee</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484947</SimpleData>
+		<SimpleData name="PERMANENT_">0fe778dc-11cc-5d7b-97b2-5d3be7ea1bb7</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/10/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">16 - 579 Old Volcano Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Keaau</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96749</SimpleData>
+		<SimpleData name="STATE">2637966</SimpleData>
+		<SimpleData name="FOOT_ID">{9FE8F9AB-8016-4290-9635-58B461629FFB}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.621120766639606,-155.04009473234618&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.040094732346,19.6211207666396</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3304854</name>
+	<name>1</name>
+	<description>ab7e8af2-56ae-4911-aeee-697c7db02f5f</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484931</SimpleData>
+		<SimpleData name="PERMANENT_">81363cb1-841c-56d4-b57e-aa838d5a2ace</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/31/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="POINTLOCAT">0</SimpleData>
+		<SimpleData name="ADMINTYPE">4200 Stainback Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hilo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96720</SimpleData>
+		<SimpleData name="STATE">2638027</SimpleData>
+		<SimpleData name="FOOT_ID">{05A27457-B273-4654-B9A2-B55460025198}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.55144728230307,-155.30004644388984&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.30004644389,19.5514472823031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3306471</name>
+	<name>1</name>
+	<description>7e9852cd-4222-415f-b0f8-a2832a9705d8</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484953</SimpleData>
+		<SimpleData name="PERMANENT_">d30dfdd5-225c-568e-876e-537e58d52d88</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/28/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">74 - 5537 Palani Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kailua Kona</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96740</SimpleData>
+		<SimpleData name="STATE">2638023</SimpleData>
+		<SimpleData name="FOOT_ID">{B69E4EEE-ADB9-4CEC-BED5-164A0987C96F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.6474174203176,-155.9923497482243&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.992349748224,19.6474174203176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3308476</name>
+	<name>1</name>
+	<description>ae128aaa-d7ac-485c-8647-ca9dd164bdd8</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">149236af-5d15-59a2-a974-08a15fd064c9</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/18/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">2 - 2480 Kaumualii Highway</SimpleData>
+		<SimpleData name="ADDRESSBUI">Kalaheo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96741</SimpleData>
+		<SimpleData name="STATE">2638040</SimpleData>
+		<SimpleData name="FOOT_ID">{AC1DA8C8-135D-4E1B-8CB2-0EE2CF2207DA}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.925258447683312,-159.526284279319&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.526284279319,21.9252584476833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3326000</name>
+	<name>1</name>
+	<description>abae3f75-81f8-4a33-b6ee-8197c384d412</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="PERMANENT_">d3d4c251-80cc-5bf6-a719-b3a40d99514e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/18/2023</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">285 Haihai Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hilo</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96720</SimpleData>
+		<SimpleData name="FOOT_ID">{60E841E1-0F58-4770-B24B-CC8F98C8939E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.67351121261884,-155.07788931086307&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.077889310863,19.6735112126188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3326552</name>
+	<name>1</name>
+	<description>58bd3b6a-588e-489a-96a8-290538c6f9f5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">2147483647</SimpleData>
+		<SimpleData name="PERMANENT_">ef1ee8bf-b9db-56d1-af0f-d78d7455d41f</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/4/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">4223 Rice Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Lihue</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96766</SimpleData>
+		<SimpleData name="STATE">2637974</SimpleData>
+		<SimpleData name="FOOT_ID">{44FCF2AD-2A76-44EF-AA3B-A415C2662A3E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.97140100302361,-159.36393080338485&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.363930803385,21.9714010030236</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3327951</name>
+	<name>1</name>
+	<description>d70f459e-c33c-48e5-9f9e-abfd1a7a8d3e</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484924</SimpleData>
+		<SimpleData name="PERMANENT_">480bd7a4-3602-5023-8765-a41f6736dd55</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/7/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">92 - 6091 Orchid Mauka Circle</SimpleData>
+		<SimpleData name="ADDRESSBUI">Ocean View</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96771</SimpleData>
+		<SimpleData name="STATE">2637934</SimpleData>
+		<SimpleData name="FOOT_ID">{7F65E90B-BF91-4FEB-8ABD-715387581B6C}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.117504617962883,-155.7784673826038&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.778467382604,19.1175046179629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3330121</name>
+	<name>1</name>
+	<description>2718dc16-b7db-438f-846b-7a029fb53982</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484918</SimpleData>
+		<SimpleData name="PERMANENT_">fa3be093-e034-578b-be9f-10409aac8ce2</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 11/5/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="POINTLOCAT">0</SimpleData>
+		<SimpleData name="ADMINTYPE">Kahakai Boulevard and Manini Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Pahoa</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96778</SimpleData>
+		<SimpleData name="STATE">2638026</SimpleData>
+		<SimpleData name="FOOT_ID">{13F55423-11B9-4A9F-ADE2-E81E96EA5A2F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=19.548385959376112,-154.90249093050264&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-154.902490930503,19.5483859593761</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3349232</name>
+	<name>1</name>
+	<description>f651b720-59bf-44ee-9c3f-9b90cd9bd656</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_3">
+		<SimpleData name="OBJECTID">10484865</SimpleData>
+		<SimpleData name="PERMANENT_">fb8093d6-de23-5e57-bcd8-d2b95138c02d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/27/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">555 Queen Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Honolulu</SimpleData>
+		<SimpleData name="ADDRESS">HI</SimpleData>
+		<SimpleData name="CITY">96813</SimpleData>
+		<SimpleData name="STATE">1956361</SimpleData>
+		<SimpleData name="FOOT_ID">{FD3E2E97-3C04-4D86-9206-A493137435D7}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=21.302919320970027,-157.85904841453112&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-157.859048414531,21.30291932097</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

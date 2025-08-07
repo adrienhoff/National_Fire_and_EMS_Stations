@@ -1,0 +1,2342 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="tile_5" id="tile_5">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="PERMANENT_" type="string"></SimpleField>
+	<SimpleField name="SOURCE_FEA" type="string"></SimpleField>
+	<SimpleField name="SOURCE_DAT" type="string"></SimpleField>
+	<SimpleField name="SOURCE_D_1" type="string"></SimpleField>
+	<SimpleField name="SOURCE_ORI" type="string"></SimpleField>
+	<SimpleField name="DATA_SECUR" type="float"></SimpleField>
+	<SimpleField name="DISTRIBUTI" type="string"></SimpleField>
+	<SimpleField name="LOADDATE" type="string"></SimpleField>
+	<SimpleField name="FTYPE" type="int"></SimpleField>
+	<SimpleField name="FCODE" type="int"></SimpleField>
+	<SimpleField name="ISLANDMARK" type="int"></SimpleField>
+	<SimpleField name="POINTLOCAT" type="int"></SimpleField>
+	<SimpleField name="ADMINTYPE" type="string"></SimpleField>
+	<SimpleField name="ADDRESSBUI" type="string"></SimpleField>
+	<SimpleField name="ADDRESS" type="string"></SimpleField>
+	<SimpleField name="CITY" type="string"></SimpleField>
+	<SimpleField name="STATE" type="string"></SimpleField>
+	<SimpleField name="ZIPCODE" type="string"></SimpleField>
+	<SimpleField name="GNIS_ID" type="string"></SimpleField>
+	<SimpleField name="FOOT_ID" type="string"></SimpleField>
+	<SimpleField name="COMPLEX_ID" type="string"></SimpleField>
+	<SimpleField name="GLOBALID" type="string"></SimpleField>
+	<SimpleField name="AppleMaps" type="string"></SimpleField>
+</Schema>
+<Folder><name>tile_5</name>
+  <Placemark>
+	<name>2886055</name>
+	<name>1</name>
+	<description>d8642f27-07a7-463e-b161-d2378a24fa51</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">266097ff-21a6-5ef1-ab27-65b89ef48fe8</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/20/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">506 Avenue Luis Muñoz Rivera</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Juan</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00918</SimpleData>
+		<SimpleData name="FOOT_ID">{786D1CC9-9010-42A5-8BE1-8EC04189047B}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.416165391274834,-66.05706613318922&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0570661331892,18.4161653912748</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2891333</name>
+	<name>1</name>
+	<description>79908dff-f6dd-468b-9241-a28b5e5c708e</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">99cdb4e9-9818-5c7d-a35b-ef84c8516f5c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 149 Km 56  Avenida Félix Luis Hernández</SimpleData>
+		<SimpleData name="ADDRESSBUI">Villalba</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00766</SimpleData>
+		<SimpleData name="FOOT_ID">{58E449CC-570F-4420-B1A1-0A308218F99E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.129261917537097,-66.49397880101988&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.4939788010199,18.1292619175371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2894980</name>
+	<name>1</name>
+	<description>73d16053-a435-4ef8-914d-e0e78f1219a3</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c1f8713e-f729-5d50-904e-2a2f650ecfcf</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/20/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 1 Km 58</SimpleData>
+		<SimpleData name="ADDRESSBUI">Cayey</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00736</SimpleData>
+		<SimpleData name="FOOT_ID">{67677AFA-239F-4788-B007-EB739E1D7F8D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.106142943770813,-66.16102429066505&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.1610242906651,18.1061429437708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2895643</name>
+	<name>1</name>
+	<description>2cc48196-47ef-462e-b8d1-af897e176339</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10574295</SimpleData>
+		<SimpleData name="PERMANENT_">c27fc9f4-25a0-5a8b-a360-c9cf5a03c3e9</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/17/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Southside Road Route 104</SimpleData>
+		<SimpleData name="ADDRESSBUI">Cruz Bay</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00830</SimpleData>
+		<SimpleData name="STATE">2697001</SimpleData>
+		<SimpleData name="FOOT_ID">{D079A43C-A47E-47E1-8A78-8C3108B809A1}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.329478297474914,-64.79208160804316&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.7920816080432,18.3294782974749</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2900521</name>
+	<name>1</name>
+	<description>9d5feef7-4521-4b7a-8e68-561e0ac8fb31</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">4ae80a0f-6614-52db-bb02-601cc9efe867</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/4/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 997 Km 0 Hm 4</SimpleData>
+		<SimpleData name="ADDRESSBUI">Vieques</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00765</SimpleData>
+		<SimpleData name="FOOT_ID">{16CD73B7-0BA6-477B-A2C3-B18E82E371BD}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.14098450220211,-65.43929860248548&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.4392986024855,18.1409845022021</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2904418</name>
+	<name>1</name>
+	<description>da9fe847-223a-4227-af53-3519bc64a412</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">6bc8b6eb-00f7-5d1b-8a78-52c9789af000</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/16/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">36 Calle Hermanos Rodriguez Emma</SimpleData>
+		<SimpleData name="ADDRESSBUI">Carolina</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00979</SimpleData>
+		<SimpleData name="FOOT_ID">{CA957C52-1D9E-4F9C-839C-03C30CA740A7}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.441817331238802,-66.02510658964302&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.025106589643,18.4418173312388</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2909253</name>
+	<name>1</name>
+	<description>2321c8ea-2572-44ef-9a17-f5b2ab03f1fe</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">645dbe51-bb1f-5651-a857-719e6c23b27c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 159 Barrio Cibuco Sector Portugués</SimpleData>
+		<SimpleData name="ADDRESSBUI">Corozal</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00783</SimpleData>
+		<SimpleData name="FOOT_ID">{8E12EF67-F677-4A50-8B1A-419B80CD2F14}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.344674122652737,-66.32182909324538&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.3218290932454,18.3446741226527</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2913947</name>
+	<name>1</name>
+	<description>596738ca-a69c-4eed-b5c2-928b0ccac3b8</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10574282</SimpleData>
+		<SimpleData name="PERMANENT_">e8672277-736a-51d3-9f65-477ead671cf1</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/13/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Flamingo Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Saint Thomas</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00802</SimpleData>
+		<SimpleData name="STATE">2696997</SimpleData>
+		<SimpleData name="FOOT_ID">{A6DAF47C-158F-437D-AE27-AC28B18C05D5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.31383040341248,-64.95669347529498&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.956693475295,18.3138304034125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2929975</name>
+	<name>1</name>
+	<description>f717fdc9-df99-49e2-b250-b4b629a3fb0c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">a63b7210-7a4f-536f-a7fc-1d76f46432a7</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/7/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 138 Avenida Luis Muñoz Marín</SimpleData>
+		<SimpleData name="ADDRESSBUI">Coamo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00769</SimpleData>
+		<SimpleData name="FOOT_ID">{D36FFE6B-30A8-4C6C-946A-0781F64FF681}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.077431612359746,-66.36851336762032&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.3685133676203,18.0774316123597</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2933556</name>
+	<name>1</name>
+	<description>cd6fdb7e-5ee9-45fa-839e-95ada93738d0</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">4b2f00b5-22fc-5248-bf45-1ed5c40cdb3d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/3/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1 Calle Olivo</SimpleData>
+		<SimpleData name="ADDRESSBUI">Cataño</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00962</SimpleData>
+		<SimpleData name="FOOT_ID">{527B2C42-4D14-4D03-9673-A9BDED24CE31}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.440850303515315,-66.12680645153024&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.1268064515302,18.4408503035153</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2935219</name>
+	<name>1</name>
+	<description>9c23a03b-d2c2-4909-ba78-0011b2dc1687</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c6b41171-dafd-560c-b3d3-73c57ef293c9</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/3/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 9944 Urbano El Vivero</SimpleData>
+		<SimpleData name="ADDRESSBUI">Gurabo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00778</SimpleData>
+		<SimpleData name="FOOT_ID">{EF418FC1-09B7-46DA-AEE1-D754512B562C}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.255822174132323,-65.97707953338787&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.9770795333879,18.2558221741323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2944625</name>
+	<name>1</name>
+	<description>b6a3c50e-6305-4431-a7f5-02f259be0e03</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">f06be3e8-bd36-5dc3-b006-ae1abcd82db6</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 153 Km 1</SimpleData>
+		<SimpleData name="ADDRESSBUI">Santa Isabel</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00757</SimpleData>
+		<SimpleData name="FOOT_ID">{705997B9-3167-4A2C-B041-6449F29F18CE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.977351092849826,-66.40386799102737&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.4038679910274,17.9773510928498</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2946160</name>
+	<name>1</name>
+	<description>6254292d-2974-4e46-ba1e-a593bee38583</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c757a469-a637-509a-89ae-1908f55d4203</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">72 Avenida Muñoz Rivera</SimpleData>
+		<SimpleData name="ADDRESSBUI">Camuy</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00627</SimpleData>
+		<SimpleData name="FOOT_ID">{3140BA2A-52D3-49B4-BD13-A39A480FF696}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.467513125532413,-66.8538498274932&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.8538498274932,18.4675131255324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2960625</name>
+	<name>1</name>
+	<description>5280bb41-7c3d-46cc-a5d6-bab80681ffcf</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">8621892b-421d-5806-ad18-e0898b463539</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/31/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 8861 Barrio Contorno</SimpleData>
+		<SimpleData name="ADDRESSBUI">Toa Alta</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00953</SimpleData>
+		<SimpleData name="FOOT_ID">{2E20D442-B4E9-41C0-BC93-3D7478F0C3E5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.384532000980627,-66.25254654008283&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.2525465400828,18.3845320009806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2969929</name>
+	<name>1</name>
+	<description>978e87cb-62ac-4014-ad85-6e652b64c197</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">ce1f2a46-8a24-5835-a779-315adef1096b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 31 Km 4</SimpleData>
+		<SimpleData name="ADDRESSBUI">Naguabo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00718</SimpleData>
+		<SimpleData name="FOOT_ID">{B3269CAB-B27E-4C2D-A83D-8BFA94760BBB}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.213286384116167,-65.74143035044474&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.7414303504447,18.2132863841162</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2973634</name>
+	<name>1</name>
+	<description>961e363a-d391-47a5-ab5f-4c8ba6bf7de7</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">b333116c-b0ec-5194-b830-b9cd1764bb45</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 584 Y Calle Víctor Cruz Barrio Amuelas</SimpleData>
+		<SimpleData name="ADDRESSBUI">Juana Díaz</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00795</SimpleData>
+		<SimpleData name="FOOT_ID">{2CB1F48B-AAA8-4ADD-AAE9-F70E6C9993BE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.04333583659809,-66.50062400293031&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.5006240029303,18.0433358365981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2976997</name>
+	<name>1</name>
+	<description>43a9694c-373c-4b7b-bf33-98665729a6e0</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">fe99875e-d83c-567f-9776-81b85c2b5e5b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1110 Calle Miguel Casillas</SimpleData>
+		<SimpleData name="ADDRESSBUI">Humacao</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00791</SimpleData>
+		<SimpleData name="FOOT_ID">{A37000F8-0930-4D52-B864-EE2CC5D509C7}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.154128039885084,-65.8277569760646&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8277569760646,18.1541280398851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2978846</name>
+	<name>1</name>
+	<description>42b7e645-bf78-4ce6-aea9-ac5f4c38c73d</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">6a967189-9e40-55bb-9ce5-3144360d6a1f</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Avenida Principal Urbano La Hacienda</SimpleData>
+		<SimpleData name="ADDRESSBUI">Guayama</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00784</SimpleData>
+		<SimpleData name="FOOT_ID">{0AA97A51-4F41-47BF-A3E4-7067D04B8147}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.97206201822045,-66.11417216153147&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.1141721615315,17.9720620182204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2979178</name>
+	<name>1</name>
+	<description>b4505ea6-7dd2-45dc-a324-b4b023824ca1</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">e365b588-ce55-5c72-a03a-a38d7876dda7</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 335 Barrio Barinas Sector Monte Florida</SimpleData>
+		<SimpleData name="ADDRESSBUI">Yauco</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00698</SimpleData>
+		<SimpleData name="FOOT_ID">{B05DE929-4EA2-46F9-A3B4-D873E960B07B}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.02266779501653,-66.857557706397&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.857557706397,18.0226677950165</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2980487</name>
+	<name>1</name>
+	<description>20ba00bb-6b9b-4bff-a5ac-57775cc10c34</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c87d6403-865e-5990-94d2-814b46a2bb06</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">613 Calle Doctor Loyola</SimpleData>
+		<SimpleData name="ADDRESSBUI">Penuelas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00624</SimpleData>
+		<SimpleData name="FOOT_ID">{5A06CB21-F0F6-410A-8835-05FB800D14E9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.04989520689715,-66.71655882365206&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.7165588236521,18.0498952068972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2988300</name>
+	<name>1</name>
+	<description>9d6751e1-1d3d-43cf-9997-60792ff44094</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">d7d5a44e-55b8-5966-ad25-eee62e662de6</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera Km 221 Y Avenida Las Brisas</SimpleData>
+		<SimpleData name="ADDRESSBUI">Ponce</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00728</SimpleData>
+		<SimpleData name="FOOT_ID">{16439B5C-0A70-4EB8-B25E-6752DFF0A8EE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.982809920347442,-66.66670834316098&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.666708343161,17.9828099203474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2992411</name>
+	<name>1</name>
+	<description>229d3cef-8105-4c18-8bf0-938c7938b37d</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">051d9002-f29e-5362-8c58-fd9e341c4361</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 2/13/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Smith Bay Road Route 38</SimpleData>
+		<SimpleData name="ADDRESSBUI">Saint Thomas</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00802</SimpleData>
+		<SimpleData name="STATE">1993682</SimpleData>
+		<SimpleData name="FOOT_ID">{3C189194-7222-42E5-B3B7-B68840860FC3}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.340317761658913,-64.88681582937745&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.8868158293775,18.3403177616589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2993998</name>
+	<name>1</name>
+	<description>f5a50bfa-96dc-4936-ab52-e84c1154fba7</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">78595a06-3cfe-5c5e-96e0-01ca6e7cac15</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/16/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">115A Avenida Roberto Clemente</SimpleData>
+		<SimpleData name="ADDRESSBUI">Carolina</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00985</SimpleData>
+		<SimpleData name="FOOT_ID">{375F358A-2206-4069-9725-BAD320647C4F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.398451840261632,-65.96602453965407&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.9660245396541,18.3984518402616</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2996561</name>
+	<name>1</name>
+	<description>af74d0df-b20b-4d3a-b445-3b43236e1339</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10574292</SimpleData>
+		<SimpleData name="PERMANENT_">3ad183d8-6d52-5bdc-885f-c57f5f92b5d5</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/18/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Route 76 Alfredo Andrews Street</SimpleData>
+		<SimpleData name="ADDRESSBUI">Frederiksted</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00840</SimpleData>
+		<SimpleData name="STATE">2697004</SimpleData>
+		<SimpleData name="FOOT_ID">{359152B4-FE98-41D7-A50D-3EB74B4B221D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.728123520572375,-64.82389618233225&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.8238961823322,17.7281235205724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>2997187</name>
+	<name>1</name>
+	<description>5a22311a-a84d-4fbd-a4c1-b210fbdde49e</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">6bac57a7-a5bf-5b65-9b43-a851002a3d97</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/2/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle Escudero 317</SimpleData>
+		<SimpleData name="ADDRESSBUI">Culebra</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00775</SimpleData>
+		<SimpleData name="FOOT_ID">{59786F20-F08B-4096-8BA8-52C1A9FD61A4}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.301785486289834,-65.29971878940057&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.2997187894006,18.3017854862898</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3004383</name>
+	<name>1</name>
+	<description>49ac0be4-c6d8-454d-9093-a73aa1464efa</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">fa3ec0e4-2b62-555b-9c7a-5e76bbc87bbb</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 2/8/2024</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Estate Emmaus 3A</SimpleData>
+		<SimpleData name="ADDRESSBUI">Coral Bay</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00830</SimpleData>
+		<SimpleData name="FOOT_ID">{5972012C-C9BF-4564-AA70-DDF6BF909FA5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.3477219011425,-64.71189084301393&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.7118908430139,18.3477219011425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3009691</name>
+	<name>1</name>
+	<description>2cdc1b01-cfc3-427a-b73a-b569bc10c2c4</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">a6a70692-d655-5d4d-b68e-642faa2e96ea</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">145 Calle Monsenor J Torres</SimpleData>
+		<SimpleData name="ADDRESSBUI">Moca</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00676</SimpleData>
+		<SimpleData name="FOOT_ID">{725C67AC-0D1F-4903-875F-922B57049B3A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.391448035583526,-67.11283733354696&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.112837333547,18.3914480355835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3009897</name>
+	<name>1</name>
+	<description>7617ad60-3c3f-431a-bdbf-d673e0df7d71</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">997d60e2-938d-5cff-ac53-9940efacdd50</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/21/2021</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADDRESSBUI">Cruz Bay</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00830</SimpleData>
+		<SimpleData name="FOOT_ID">{C7225114-5290-4B86-9ECF-BFFCC8F64519}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.329998606119936,-64.7932070036724&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.7932070036724,18.3299986061199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3015506</name>
+	<name>1</name>
+	<description>d2d27028-d6de-48d9-bb1f-5b62ec973349</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">37471009-9165-5540-9b09-66187fc6eafa</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/4/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 846 Km 1 Barrio Las Cuevas</SimpleData>
+		<SimpleData name="ADDRESSBUI">Trujillo Alto</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00976</SimpleData>
+		<SimpleData name="FOOT_ID">{2442342F-7969-4D4D-AA0E-D938167412E9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.367304827168876,-66.02329079356076&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0232907935608,18.3673048271689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3017199</name>
+	<name>1</name>
+	<description>c404595f-e59a-414a-a097-289d80388933</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">f36db2cd-c6f9-5053-a7cc-7a96cc20c028</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/20/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">418 Calle Profesor Ernesto Vigoreaux</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Juan</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00915</SimpleData>
+		<SimpleData name="FOOT_ID">{9CA48ED5-0462-4525-8D9C-FE9DA1218F08}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.440251396367213,-66.0526639716006&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0526639716006,18.4402513963672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3018688</name>
+	<name>1</name>
+	<description>5313e933-9eb1-4651-a324-a59798de65c2</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c9989517-7545-5be5-aea4-67ff8052daeb</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 992 Sector Industrial Mata de Plátano Barrio Sabana</SimpleData>
+		<SimpleData name="ADDRESSBUI">Luquillo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00773</SimpleData>
+		<SimpleData name="FOOT_ID">{3155A81C-2BDE-462E-840F-CD37F633B6F4}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.370593101581623,-65.71795469871704&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.717954698717,18.3705931015816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3019075</name>
+	<name>1</name>
+	<description>c52bfa50-749e-49f3-b40b-990d40c3b173</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">6248314c-8e8b-54f1-9d50-332e53201970</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 164</SimpleData>
+		<SimpleData name="ADDRESSBUI">Naranjito</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00719</SimpleData>
+		<SimpleData name="FOOT_ID">{9ED5EFCB-F066-472F-82B2-8D19544B5710}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.300349236963914,-66.23860762978282&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.2386076297828,18.3003492369639</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3026296</name>
+	<name>1</name>
+	<description>b2735501-f355-4ec2-b0b2-e134bca1f9a5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">4eb5001b-eb19-5ed7-bfd0-37f9c13b9a17</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 140 Km 55</SimpleData>
+		<SimpleData name="ADDRESSBUI">Florida</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00650</SimpleData>
+		<SimpleData name="FOOT_ID">{C2DFAD2F-300F-4787-9D0A-071EFC72ACF5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.36756803197225,-66.56690058074383&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.5669005807438,18.3675680319723</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3028109</name>
+	<name>1</name>
+	<description>aef46bd2-4f21-4c89-b4b2-56f357a80d74</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">3f07aa1a-25b7-54ff-92fc-b6bc4e8f510b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle Corchado Final</SimpleData>
+		<SimpleData name="ADDRESSBUI">Canóvanas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00729</SimpleData>
+		<SimpleData name="FOOT_ID">{6AF8A487-1646-49D4-B69A-65EC17E48AA5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.37734129958076,-65.89893162349455&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8989316234945,18.3773412995808</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3029789</name>
+	<name>1</name>
+	<description>86c1dc13-7c60-4aae-84f2-68abd6f7553a</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">6b506cf1-f911-52f3-a051-2806f26aa8b2</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 2 Km 56 Barrio Trinidad</SimpleData>
+		<SimpleData name="ADDRESSBUI">Barceloneta</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00617</SimpleData>
+		<SimpleData name="FOOT_ID">{95568AC0-8284-4E5F-95F4-9DD7D0C2B33B}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.433083570517713,-66.5500014671383&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.5500014671383,18.4330835705177</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3031490</name>
+	<name>1</name>
+	<description>5be8f050-a444-4cec-a525-fe8bf4bafe91</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">1018e1c2-d8ff-5bdf-b594-fc1b09a7a1fb</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 120 Km 22 Barrio Maricao Afuera</SimpleData>
+		<SimpleData name="ADDRESSBUI">Maricao</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00606</SimpleData>
+		<SimpleData name="FOOT_ID">{321186F0-FC7A-4007-951E-8A709E11D1AF}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.184678033835574,-66.98177955096776&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.9817795509678,18.1846780338356</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3042495</name>
+	<name>1</name>
+	<description>4c00ea19-0fd4-4fe7-a298-f1913fd162e0</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">dcb8167a-02c0-50aa-9354-e53ac0ac8a77</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">10 Calle Patrón</SimpleData>
+		<SimpleData name="ADDRESSBUI">Morovis</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00687</SimpleData>
+		<SimpleData name="FOOT_ID">{919655D8-F551-49F7-9BA8-1CF1740457F6}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.327364929462078,-66.40480641208846&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.4048064120885,18.3273649294621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3057390</name>
+	<name>1</name>
+	<description>c0c1d2ca-082a-4ac2-a224-49d2c62a22c8</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">b9b94e33-7a5b-5a7c-8eea-b7e279669c0b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">23 Calle Concepción</SimpleData>
+		<SimpleData name="ADDRESSBUI">Guayanilla</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00656</SimpleData>
+		<SimpleData name="FOOT_ID">{B685A137-6D5B-449C-81FA-266F15039B0E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.020029931539444,-66.79157105357079&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.7915710535708,18.0200299315394</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3058649</name>
+	<name>1</name>
+	<description>0b619e9a-d25d-4332-8611-b4cafe16ce13</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">ea6edc75-1caa-5120-8dab-f0277529e875</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 2 Km 16 Barrio Bayaney</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hatillo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00659</SimpleData>
+		<SimpleData name="FOOT_ID">{F0FE7565-6113-487D-B5E5-1FE4410EE8A5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.484528587844462,-66.81890718993735&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.8189071899373,18.4845285878445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3070307</name>
+	<name>1</name>
+	<description>bdffc762-68fd-4325-8885-ea2f7c97b3d6</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">852c7ef1-c3d7-575c-b751-fb19c28b9e0e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">296 Avenida Hostos</SimpleData>
+		<SimpleData name="ADDRESSBUI">Arecibo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00612</SimpleData>
+		<SimpleData name="FOOT_ID">{ED1968D5-223D-413E-991C-759BF74A2C84}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.471203848188374,-66.72634734721768&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.7263473472177,18.4712038481884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3073503</name>
+	<name>1</name>
+	<description>47eaf45f-86fc-4261-ac1e-ad58211926bc</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">94b3c712-909b-5f8e-ab4d-3af56c1d0f91</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/26/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle Estación 25</SimpleData>
+		<SimpleData name="ADDRESSBUI">Lajas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00667</SimpleData>
+		<SimpleData name="FOOT_ID">{86D50459-2677-4D03-B412-F4065E33A5F4}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.040089518606504,-67.05702828902804&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.057028289028,18.0400895186065</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3075158</name>
+	<name>1</name>
+	<description>02953b6e-e13b-41e7-82b7-728292e7d492</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">21326637-b750-5881-848b-c6235c1ea980</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/13/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 102</SimpleData>
+		<SimpleData name="ADDRESSBUI">Sabana Grande</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00637</SimpleData>
+		<SimpleData name="FOOT_ID">{840506EB-4EEC-446E-96A8-76B22E095120}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.08196537183473,-66.97946784061448&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.9794678406145,18.0819653718347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3078797</name>
+	<name>1</name>
+	<description>12417975-4d7f-4efe-8162-9e1af7490f27</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">f5d13430-cff3-5662-a90a-023f9aa237f0</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/7/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle F Esquina 3A</SimpleData>
+		<SimpleData name="ADDRESSBUI">Bayamón</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00961</SimpleData>
+		<SimpleData name="FOOT_ID">{DEF31903-1DE7-4DD8-911E-A1386190324C}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.392329245281992,-66.16707440710424&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.1670744071042,18.392329245282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3078995</name>
+	<name>1</name>
+	<description>4b59edc1-f676-4169-b83e-719549ecb6c4</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">a411636f-b407-5f46-954f-a8050fea9711</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/18/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 152 Y Avenida José Zayas Green</SimpleData>
+		<SimpleData name="ADDRESSBUI">Barranquitas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00794</SimpleData>
+		<SimpleData name="FOOT_ID">{4E34ABFD-A8AA-4623-AE88-3E7ED908E1F6}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.189433066274212,-66.30434251191693&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.3043425119169,18.1894330662742</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3080794</name>
+	<name>1</name>
+	<description>564513b0-b981-46bd-bb15-de1188f56b4b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">2a028115-5e4f-593a-9524-30022d335562</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">910 Calle Hospital</SimpleData>
+		<SimpleData name="ADDRESSBUI">Isabela</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00662</SimpleData>
+		<SimpleData name="FOOT_ID">{E02E1A1C-A6F8-4CFE-9F4B-F0077375B152}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.487902685440314,-67.02646493276197&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.026464932762,18.4879026854403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3088183</name>
+	<name>1</name>
+	<description>7b5f5155-0a32-4aa8-b0ff-0bc61de8120d</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">f5940a3c-22b3-5af3-9329-df8fc63692a7</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">907 Avenida Emerito Estrada Rivera</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Sebastián</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00685</SimpleData>
+		<SimpleData name="FOOT_ID">{CDD448DF-83C4-4FDC-8E71-E361B9921C63}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.33595371220737,-66.99465797518069&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.9946579751807,18.3359537122074</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3089767</name>
+	<name>1</name>
+	<description>396db7ac-1238-488b-9886-f553fb2994f5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">4da8a862-4bc4-5ec7-96d5-dd80e2fbbf04</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 1 Km 89 Barrio Coquí</SimpleData>
+		<SimpleData name="ADDRESSBUI">Salinas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00751</SimpleData>
+		<SimpleData name="FOOT_ID">{B828314F-46C3-48BB-866F-C4A38D8BF587}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.985100653068276,-66.28930496747778&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.2893049674778,17.9851006530683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3094840</name>
+	<name>1</name>
+	<description>d8b3e6ed-7fb4-4a61-907d-b7dbe6202685</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10574293</SimpleData>
+		<SimpleData name="PERMANENT_">a3987057-8c1c-5c0e-a8bd-ced58c135137</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/18/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Queen Street Route 75</SimpleData>
+		<SimpleData name="ADDRESSBUI">Christiansted</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00820</SimpleData>
+		<SimpleData name="STATE">2696996</SimpleData>
+		<SimpleData name="FOOT_ID">{E93BB60E-F40A-4584-AEFA-2F10B61EFD3E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.734469272277135,-64.77539610563183&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.7753961056318,17.7344692722771</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3094867</name>
+	<name>1</name>
+	<description>e0e7f74d-0b14-48d1-8c20-b19e6f427752</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">48d3832b-da75-59f9-a673-1439a803977e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 6/19/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">113 Avenida Felix Rios Carretera 7719</SimpleData>
+		<SimpleData name="ADDRESSBUI">Aibonito</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00705</SimpleData>
+		<SimpleData name="FOOT_ID">{5F774E1F-B399-49A1-AB5E-570522FFB1D8}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.137282324048808,-66.27028488273857&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.2702848827386,18.1372823240488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3098942</name>
+	<name>1</name>
+	<description>2e11aadd-af72-49f1-b0c2-6b5fb1cd34e8</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">9db0ec67-5440-546e-867c-f60a28d590f9</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 2 Km 174 Camino Villa Paraíso</SimpleData>
+		<SimpleData name="ADDRESSBUI">San German</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00683</SimpleData>
+		<SimpleData name="FOOT_ID">{FBE2C986-C74D-4A02-BB23-B472B160934A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.093157696650824,-67.03053139419812&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.0305313941981,18.0931576966508</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3103120</name>
+	<name>1</name>
+	<description>c4906f16-4019-41ef-a1e1-151ed447ff09</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">e5821080-d1f5-5fa4-bffb-8bec4bb1928e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 402 Km 0</SimpleData>
+		<SimpleData name="ADDRESSBUI">Anasco</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00610</SimpleData>
+		<SimpleData name="FOOT_ID">{2DCCE36C-5CA5-4A06-820B-EC593F6A9D68}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.28939913133,-67.140203978366&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.140203978366,18.28939913133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3110542</name>
+	<name>1</name>
+	<description>bab74779-1ff8-4ab9-b89b-b8b2cf5f6c83</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">8d736c1c-34aa-5c64-aee2-c6c3cb933c69</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 183 esquina Calle Felix Lopez</SimpleData>
+		<SimpleData name="ADDRESSBUI">Las Piedras</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00771</SimpleData>
+		<SimpleData name="FOOT_ID">{771801EE-FE94-4673-B800-5D09C6F1735C}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.176411599228793,-65.87312899886304&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.873128998863,18.1764115992288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3117649</name>
+	<name>1</name>
+	<description>7f58829b-e301-4215-98e7-e97e1b4998de</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">949cd9b3-250d-5cad-b294-f041839c14a5</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 2/12/2021</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">16 Penitentary Land</SimpleData>
+		<SimpleData name="ADDRESSBUI">Christiansted</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00820</SimpleData>
+		<SimpleData name="FOOT_ID">{BD981D3D-2B0E-4E38-9880-BAC64CB74D23}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.74774172360694,-64.71483583371452&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.7148358337145,17.7477417236069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3120139</name>
+	<name>1</name>
+	<description>324c3f91-001e-4d44-84ab-d0245037b776</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">8bb4b0c4-8ddc-5798-bbd0-bf93df4097c4</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 3/26/2020</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">William Lewis Lane</SimpleData>
+		<SimpleData name="ADDRESSBUI">Charlotte Amalie</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00802</SimpleData>
+		<SimpleData name="STATE">2696999</SimpleData>
+		<SimpleData name="FOOT_ID">{6FFA9B1E-2BBB-4A07-AF10-7FFC510AD812}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.340918283395595,-64.92195516320922&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.9219551632092,18.3409182833956</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3121522</name>
+	<name>1</name>
+	<description>aaf47670-aa17-4b88-851a-ba8de7c8a9ff</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c86ac791-5c0c-5f03-998b-7a880aa9e5e6</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 156 Interior 42 Calle Muñoz Rivera</SimpleData>
+		<SimpleData name="ADDRESSBUI">Aguas Buenas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00703</SimpleData>
+		<SimpleData name="FOOT_ID">{744E4AC3-4B6E-412F-B1FE-D202DC20CA38}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.255228987005577,-66.10141581483097&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.101415814831,18.2552289870056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3124904</name>
+	<name>1</name>
+	<description>4a0e211d-df62-4818-bd28-ab7eb4bfb27b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">cb77894c-0c67-51bc-a10b-f252d0f3dc77</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/17/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle La Valentina</SimpleData>
+		<SimpleData name="ADDRESSBUI">Arroyo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00714</SimpleData>
+		<SimpleData name="FOOT_ID">{5F107747-A5CD-4D39-B268-7DD5715EA002}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.969038869625948,-66.06169716956308&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0616971695631,17.9690388696259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3133087</name>
+	<name>1</name>
+	<description>338e9679-8890-40e8-abe9-14aaca1ccd51</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10574290</SimpleData>
+		<SimpleData name="PERMANENT_">671cefc9-a569-5f20-8529-922d02918a74</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/18/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Route 663</SimpleData>
+		<SimpleData name="ADDRESSBUI">Christiansted</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00820</SimpleData>
+		<SimpleData name="STATE">2697002</SimpleData>
+		<SimpleData name="FOOT_ID">{2B4388B6-DA77-45E3-A197-A083654A006A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.71831402440399,-64.77686857965118&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.7768685796512,17.718314024404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3133979</name>
+	<name>1</name>
+	<description>27d4cccf-0455-47c6-acad-92adce025f23</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">e2e3c63a-fb49-5145-9a59-ca32b07160a5</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 670 Km 2 Barrio Cotto Sur</SimpleData>
+		<SimpleData name="ADDRESSBUI">Manati</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00674</SimpleData>
+		<SimpleData name="FOOT_ID">{8E57F48E-1D6C-46A0-B49C-6EF5DB8526CC}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.425000225409057,-66.46797019126677&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.4679701912668,18.4250002254091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3136123</name>
+	<name>1</name>
+	<description>8c8b5a11-3054-452e-8a36-3d9a81e5aaeb</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">f8544879-1b88-4da0-ad20-a7b3ed4af3e2</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/1/2024</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 173 Y Avenue El Jíbaro</SimpleData>
+		<SimpleData name="ADDRESSBUI">Cidra</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00739</SimpleData>
+		<SimpleData name="FOOT_ID">{0636DE52-7401-498E-BE6D-54D6655C5658}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.18586632440156,-66.15890331849081&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.1589033184908,18.1858663244016</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3138010</name>
+	<name>1</name>
+	<description>b3497d33-59bf-4a0d-b26e-34771820d255</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">1d966f3d-b319-5678-b778-d965151c3546</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 3 Km 122</SimpleData>
+		<SimpleData name="ADDRESSBUI">Patillas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00723</SimpleData>
+		<SimpleData name="FOOT_ID">{11DB2F61-B05E-4291-B7CF-01AF2B973D2F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.00277987887017,-66.01111426874046&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0111142687405,18.0027798788702</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3148799</name>
+	<name>1</name>
+	<description>7854a5c8-c13e-4b7a-a158-69dae84a4820</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">5efe00e3-dd41-56ac-b0e3-5322b1a40cd2</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">991 Avenida El Naranjal</SimpleData>
+		<SimpleData name="ADDRESSBUI">Vega Baja</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00693</SimpleData>
+		<SimpleData name="FOOT_ID">{2CD3A369-733A-4EF4-BF48-2AC96CA420CB}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.45366196317719,-66.39179829365536&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.3917982936554,18.4536619631772</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3150327</name>
+	<name>1</name>
+	<description>1b090d08-807c-4856-8449-6ed83220183a</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">8ef3fa30-ea8b-52f6-ae11-fa4b5c9f171d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 602 Km 0</SimpleData>
+		<SimpleData name="ADDRESSBUI">Angeles</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00611</SimpleData>
+		<SimpleData name="FOOT_ID">{451C5304-0E6A-49CF-9CB4-B2E6C28F47C6}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.290427197779774,-66.80317537009711&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.8031753700971,18.2904271977798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3150978</name>
+	<name>1</name>
+	<description>de1b42ab-ad19-48c1-98ad-a62cead3db8e</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">eb01f4a2-e67b-514c-9102-929bd46faeee</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/26/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 333</SimpleData>
+		<SimpleData name="ADDRESSBUI">Guanica</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00653</SimpleData>
+		<SimpleData name="FOOT_ID">{D0EC4782-4432-4F51-9A63-BB277F6B1358}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.973214043365047,-66.90386051690021&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.9038605169002,17.973214043365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3157584</name>
+	<name>1</name>
+	<description>0c332fdd-e0c3-4257-9215-a8a8a9d9a571</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">339ab551-0f44-5cbb-9a39-1762c05b6edd</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 345 Km 1</SimpleData>
+		<SimpleData name="ADDRESSBUI">Hormigueros</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00660</SimpleData>
+		<SimpleData name="FOOT_ID">{522F7A01-202F-4497-BE40-785D3695CDC2}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.136782585806436,-67.1197724510799&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.1197724510799,18.1367825858064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3161232</name>
+	<name>1</name>
+	<description>188b80a0-429d-4867-bce3-6cdd06b048a5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">7e2fe0b2-96d2-50ee-8255-893e498a59ef</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle Felisa Rincón de Gautier Km 1</SimpleData>
+		<SimpleData name="ADDRESSBUI">Ceiba</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00735</SimpleData>
+		<SimpleData name="FOOT_ID">{CC0FF8AE-38DB-4408-9AA0-0AF3C12801BB}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.25921535334803,-65.647481959004&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.647481959004,18.259215353348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3167604</name>
+	<name>1</name>
+	<description>30f3bef9-3af1-41eb-8d0d-61a2c676e967</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10573364</SimpleData>
+		<SimpleData name="PERMANENT_">00b1e1c1-0b9b-5427-ac20-fa1c390cbe2d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/18/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">East Centerline Airport Road</SimpleData>
+		<SimpleData name="ADDRESSBUI">Christiansted</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00820</SimpleData>
+		<SimpleData name="STATE">2697006</SimpleData>
+		<SimpleData name="FOOT_ID">{C91E9149-7860-4299-AA25-3F8AAD990314}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.699580040348973,-64.79383635808549&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.7938363580855,17.699580040349</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3173892</name>
+	<name>1</name>
+	<description>5f43cc1c-22c0-4595-a139-e5d649a0417f</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c7dde684-cb5c-5238-85c7-94884a273f63</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 115 Y Calle Colón 104</SimpleData>
+		<SimpleData name="ADDRESSBUI">Aguada</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00602</SimpleData>
+		<SimpleData name="FOOT_ID">{280C0B18-88C5-4A98-888C-4CF5CA52E1CA}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.381066332079158,-67.18376783635743&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.1837678363574,18.3810663320792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3183310</name>
+	<name>1</name>
+	<description>d0fa6261-cb7b-4769-af10-abea708bb99d</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">e1375e46-1abe-59d4-b4b0-ba210b45bd6e</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/1/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 167 Y Calle Amur</SimpleData>
+		<SimpleData name="ADDRESSBUI">Bayamón</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00957</SimpleData>
+		<SimpleData name="FOOT_ID">{C50EBD67-23F6-42BC-998E-2613FEE37816}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.340050710775675,-66.19870588489484&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.1987058848948,18.3400507107757</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3186334</name>
+	<name>1</name>
+	<description>06796559-d5be-4aa7-b82b-4fdfd9fe77db</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">b7ece03b-8c60-5f9c-bbaf-58c391d2a964</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/1/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">4 Avenida Muñoz Rivera</SimpleData>
+		<SimpleData name="ADDRESSBUI">Toa Baja</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00949</SimpleData>
+		<SimpleData name="FOOT_ID">{51C9D7C3-1258-4C6A-A90A-CA6105668BBE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.44017509893054,-66.25292801123831&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.2529280112383,18.4401750989305</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3188214</name>
+	<name>1</name>
+	<description>1b2b4e21-ad1b-45bb-b76d-8a267f9a1d6b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">1aaeb723-d8fb-5dbf-8e48-62b80af5ce8f</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/12/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">4 Avenida Luis Muñoz Marín</SimpleData>
+		<SimpleData name="ADDRESSBUI">Orocovis</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00720</SimpleData>
+		<SimpleData name="FOOT_ID">{770C2971-2C4C-4CF9-BABC-429F8B3126A9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.22863290597783,-66.39299610419741&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.3929961041974,18.2286329059778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3191102</name>
+	<name>1</name>
+	<description>3e1bbe50-fc60-43af-89c2-56d1298434bd</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">21f05950-adc8-4b88-9786-3de40f12f9cd</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/3/2024</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">85 Oeste Calle Nenadich</SimpleData>
+		<SimpleData name="ADDRESSBUI">Mayaguez</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00680</SimpleData>
+		<SimpleData name="FOOT_ID">{5B990B27-2AB9-465E-A7EE-7C6522AE9AFC}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.198122918207016,-67.14541859502832&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.1454185950283,18.198122918207</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3195756</name>
+	<name>1</name>
+	<description>4f2b5064-8323-4baf-8924-3848334b9f42</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">e7ec92e2-a8ff-57d3-aeba-bc580a91bec3</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 135 Km 64 Barrio Bartolo Poblado Castañer</SimpleData>
+		<SimpleData name="ADDRESSBUI">Lares</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00669</SimpleData>
+		<SimpleData name="FOOT_ID">{24AAE48B-4B77-4FF9-B93F-AC6D07C8C55D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.17896361764815,-66.83245699468503&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.832456994685,18.1789636176482</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3210639</name>
+	<name>1</name>
+	<description>82bb0349-1705-4327-854c-e23204e214df</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">9d48f04c-f6c0-4e4d-b100-d6852146e4a3</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/14/2025</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 145 Calle Palmas 685 Interior</SimpleData>
+		<SimpleData name="ADDRESSBUI">Ciales</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00638</SimpleData>
+		<SimpleData name="FOOT_ID">{407B0284-D16F-4567-A9C9-4D53A84F70AE}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.341883170788552,-66.46828978811737&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.4682897881174,18.3418831707886</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3219881</name>
+	<name>1</name>
+	<description>94361409-416a-4e5c-b53f-10e3d679a5fd</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c4728043-8839-558a-8cee-34d6fa0e53cd</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">101 Calle Cliff</SimpleData>
+		<SimpleData name="ADDRESSBUI">Aguadilla</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00603</SimpleData>
+		<SimpleData name="FOOT_ID">{112A8472-1DE4-43DD-949A-F8B58379F9E9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.505013513233077,-67.12313702144772&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.1231370214477,18.5050135132331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3221514</name>
+	<name>1</name>
+	<description>57bc6321-21da-44a7-ab0e-343f3fd53399</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">b973a6b4-d262-59c3-be4e-ae5dee3b1f24</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/7/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Avenida Santa Rosa</SimpleData>
+		<SimpleData name="ADDRESSBUI">Guaynabo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00970</SimpleData>
+		<SimpleData name="FOOT_ID">{C05B8B5A-196F-4EAF-99E2-72C7F80ACD5A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.35785009594331,-66.11579722879947&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.1157972287995,18.3578500959433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3223207</name>
+	<name>1</name>
+	<description>3375b537-729a-4168-bb85-5139f3a0ec5b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">1cd92cce-c0ef-57b7-abc6-5ad044c45cbc</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">83A Calle Rodolfo González</SimpleData>
+		<SimpleData name="ADDRESSBUI">Adjuntas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00601</SimpleData>
+		<SimpleData name="FOOT_ID">{F053F554-14B2-4451-B915-57022F40371D}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.166119529698285,-66.72476042800173&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.7247604280017,18.1661195296983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3228969</name>
+	<name>1</name>
+	<description>8d8d0452-309c-43aa-b5cf-53d911bf5a4c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c6bc7bac-2d23-5b5b-ae86-0a1a768ade36</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/20/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">364 Calle Constitución</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Juan</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00920</SimpleData>
+		<SimpleData name="FOOT_ID">{3E949CA2-B528-4C5C-813E-9A23DE07E311}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.413064041072456,-66.08548563698226&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0854856369823,18.4130640410725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3232581</name>
+	<name>1</name>
+	<description>7a6716c7-801b-44d8-a8d5-2e7244185d45</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">671eadbf-58d1-50a1-bed4-2170ac718e8f</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 111 Km 3 Y  Calle Los Patriotas</SimpleData>
+		<SimpleData name="ADDRESSBUI">Lares</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00669</SimpleData>
+		<SimpleData name="FOOT_ID">{FC8398A7-EDB6-4D4F-AE2C-1BFE1D54E0C1}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.299220075921685,-66.87752384347257&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.8775238434726,18.2992200759217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3234372</name>
+	<name>1</name>
+	<description>762d90a8-b9a0-48af-be64-7acf8e0f838b</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">72c68ac9-1c77-5138-a6d4-be65cef0ec7f</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/20/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Avenue Manuel Fernandez Juncos</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Juan</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00901</SimpleData>
+		<SimpleData name="FOOT_ID">{F53DC0BB-FA69-4FBE-8625-C0AE0AC33CB8}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.46263795303473,-66.09226817167189&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0922681716719,18.4626379530347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3235800</name>
+	<name>1</name>
+	<description>056c2631-a616-48f1-936d-a0bf2f51f907</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">87d598a0-dc2d-59e0-95db-2127997e0c9a</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">101 Avenida Matías Brugman</SimpleData>
+		<SimpleData name="ADDRESSBUI">Las Marias</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00670</SimpleData>
+		<SimpleData name="FOOT_ID">{A4897D6B-C86E-4204-983A-D5B9BB7BBE05}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.251721357502003,-66.98912666059509&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.9891266605951,18.251721357502</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3240785</name>
+	<name>1</name>
+	<description>7367ed2a-1834-489f-ad49-362082f176a5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">36726326-1187-5400-ab9d-4d7f9a526944</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/12/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">8074 Lindbergh Bay</SimpleData>
+		<SimpleData name="ADDRESSBUI">Saint Thomas</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00803-1707</SimpleData>
+		<SimpleData name="STATE">2697005</SimpleData>
+		<SimpleData name="FOOT_ID">{5B822CC4-E148-410B-8CF7-5C854507D6DA}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.339510952294,-64.96687109192655&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.9668710919265,18.339510952294</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3241282</name>
+	<name>1</name>
+	<description>f977aa08-9918-4039-8a3c-f9be3516fdb2</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10573528</SimpleData>
+		<SimpleData name="PERMANENT_">8dcc0c9f-7d71-5043-8fc2-68f6e498bac8</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/13/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Fortuna Road Route 30</SimpleData>
+		<SimpleData name="ADDRESSBUI">Charlotte Amalie</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00802</SimpleData>
+		<SimpleData name="STATE">2696998</SimpleData>
+		<SimpleData name="FOOT_ID">{44779F99-DC8A-4623-9EC6-F08716FDFCF3}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.350466765181736,-65.01191505105045&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.0119150510505,18.3504667651817</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3247291</name>
+	<name>1</name>
+	<description>88a55448-2636-4223-b847-f5a1a0b29ca1</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">0</SimpleData>
+		<SimpleData name="PERMANENT_">34c7abd2-368d-5ff9-9b0d-ef4e508d6d1d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle Alcázar  Y Boulevard Miguel Pou</SimpleData>
+		<SimpleData name="ADDRESSBUI">Ponce</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00717</SimpleData>
+		<SimpleData name="FOOT_ID">{3FC7B080-94BA-4CB2-9003-46CADFBFCEE2}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.013087184006014,-66.60451350078002&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.60451350078,18.013087184006</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3248917</name>
+	<name>1</name>
+	<description>4523a95f-7760-4ca3-b026-608a8241e539</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">fd2f1166-209e-54b7-9aa6-af25528114a6</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 115, Km 12 Int Y Avenida Pedro Albizu Campos</SimpleData>
+		<SimpleData name="ADDRESSBUI">Rincon</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00677</SimpleData>
+		<SimpleData name="FOOT_ID">{29069456-7455-459F-BEFD-BD57AF25ED63}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.33430385224002,-67.24895340194225&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.2489534019422,18.33430385224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3249519</name>
+	<name>1</name>
+	<description>f92395e2-7e89-4fcd-acd8-bcf0c4184e8c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">da9dfbd4-bf4e-5a9f-913c-6ea21f84cc88</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 203 Km 7 Barrio Hato</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Lorenzo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00754</SimpleData>
+		<SimpleData name="FOOT_ID">{11D865EF-1A11-4870-B915-E44D3216B73B}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.192311260857295,-65.97416510212594&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.9741651021259,18.1923112608573</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3253177</name>
+	<name>1</name>
+	<description>eca58c27-cf00-430b-94cb-927c165c3674</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">50355bf1-c895-54fe-9638-db0144ca3ef0</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 775 Barrio Piñas Abajo</SimpleData>
+		<SimpleData name="ADDRESSBUI">Comerio</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00782</SimpleData>
+		<SimpleData name="FOOT_ID">{282BC977-DAC2-400F-809E-445270206F90}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.21301362528554,-66.22614119350213&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.2261411935021,18.2130136252855</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3254925</name>
+	<name>1</name>
+	<description>e406b813-e7d5-4bbb-a6f0-09002c4cd479</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">02c7051e-7728-5609-8905-10aebbee5bca</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">910 Avenida Hostos</SimpleData>
+		<SimpleData name="ADDRESSBUI">Ponce</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00731</SimpleData>
+		<SimpleData name="FOOT_ID">{E4D7FB67-28F6-45F8-A204-FF6FEE2EDEA9}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.985613725474575,-66.61855159060454&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.6185515906045,17.9856137254746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3259135</name>
+	<name>1</name>
+	<description>822a0c7b-a6f2-4955-9356-74a41a1dd1c4</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10573604</SimpleData>
+		<SimpleData name="PERMANENT_">28ee963e-6680-580f-bd59-91b9503f6fb1</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 1/13/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Route 333</SimpleData>
+		<SimpleData name="ADDRESSBUI">Charlotte Amalie</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00802</SimpleData>
+		<SimpleData name="STATE">2697000</SimpleData>
+		<SimpleData name="FOOT_ID">{3B2FBA74-67C3-410A-A3D3-6C7A2A35EA16}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.35838798690118,-64.9616296971256&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.9616296971256,18.3583879869012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3261703</name>
+	<name>1</name>
+	<description>2faa3a8d-a4fe-4806-b638-7dc0d89c4f12</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">aaec9d63-be25-57fd-981a-027bb4e77987</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 330 Km 6 Sector Ángel L Mínguela</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Germán</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00660</SimpleData>
+		<SimpleData name="FOOT_ID">{4D381551-C8D1-4349-A664-CCE6C442A792}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.157185499381608,-67.0806870518217&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.0806870518217,18.1571854993816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3269399</name>
+	<name>1</name>
+	<description>c040d40c-2c20-408e-ab9b-86453fd449ae</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">8bfd156d-d60b-56ec-86bc-217d805f7431</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 4/23/2018</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Avenida Jose De Diego</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Juan</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00927</SimpleData>
+		<SimpleData name="FOOT_ID">{D53E2BFB-EEEF-455D-8F2C-538547CCDF61}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.386012107068062,-66.08093851654186&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0809385165419,18.3860121070681</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3285830</name>
+	<name>1</name>
+	<description>e71cd911-145a-43d0-8727-d0e906db4824</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">1c8fa737-c51d-583d-adde-8babdd809f63</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 935 Km 4 Sector Rancho Bonito</SimpleData>
+		<SimpleData name="ADDRESSBUI">Juncos</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00777</SimpleData>
+		<SimpleData name="FOOT_ID">{502C601C-326D-4A9B-B0F0-7BD3B5F89A22}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.223526938977656,-65.90405094494523&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.9040509449452,18.2235269389777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3287597</name>
+	<name>1</name>
+	<description>e8c7a154-8675-4407-b872-3268c75bd4fa</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">7340a28a-b91e-5b6e-91d4-d1f0fae32b42</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 5/13/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">95 Calle Catalina Morales</SimpleData>
+		<SimpleData name="ADDRESSBUI">Yabucoa</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00767</SimpleData>
+		<SimpleData name="FOOT_ID">{36072A0B-03B8-4FFF-B9D3-A7059D3147CF}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.04789059618778,-65.88120852778134&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8812085277813,18.0478905961878</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3289858</name>
+	<name>1</name>
+	<description>69d9f395-eed1-43b9-8901-fda10228f461</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="OBJECTID">10574291</SimpleData>
+		<SimpleData name="PERMANENT_">9b9706f2-4972-50e8-a58e-acea059b852b</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 11/16/2020</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">1 Estate Cotton Valley</SimpleData>
+		<SimpleData name="ADDRESSBUI">Christiansted</SimpleData>
+		<SimpleData name="ADDRESS">VI</SimpleData>
+		<SimpleData name="CITY">00820</SimpleData>
+		<SimpleData name="STATE">1993439</SimpleData>
+		<SimpleData name="FOOT_ID">{9ADA544C-21F9-4A6C-9B89-234C0854C2C5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=17.7579059357883,-64.62270854820026&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-64.6227085482003,17.7579059357883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3292499</name>
+	<name>1</name>
+	<description>2367f884-db11-407f-bb00-b6745707f3aa</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">e4c36781-0299-5ff6-a731-e0f1ee360847</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 923 Barrio Buena Vista</SimpleData>
+		<SimpleData name="ADDRESSBUI">Humacao</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00791</SimpleData>
+		<SimpleData name="FOOT_ID">{D0086170-4ABD-4289-A801-5B167147E46F}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.10710806764985,-65.81188019945364&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8118801994536,18.1071080676499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3292889</name>
+	<name>1</name>
+	<description>9624eb8f-ba1e-4214-b7c4-c924f9e4e6ac</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">0bca6f19-0602-5f6f-a03c-42f431b386d6</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/20/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">62 Calle Tizol</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Juan</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00925</SimpleData>
+		<SimpleData name="FOOT_ID">{5F4EC29B-01BB-4FEF-B517-325187D2803B}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.39591315726158,-66.05110757436407&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0511075743641,18.3959131572616</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3293037</name>
+	<name>1</name>
+	<description>be377ec2-7b94-4281-b94f-469c7be6e28e</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">c3593f61-082b-55da-bba5-985727f17548</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 9/20/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle Sicilia esquina Calle Valverde</SimpleData>
+		<SimpleData name="ADDRESSBUI">San Juan</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00923</SimpleData>
+		<SimpleData name="FOOT_ID">{9E070E53-8145-4DFB-90F5-77903E8976E0}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.41917328103805,-66.04258553761515&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0425855376152,18.419173281038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3294784</name>
+	<name>1</name>
+	<description>976d1ee8-7aba-4049-9d1c-f2316428e9eb</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">1110e383-6d6c-5c9c-8b70-11ab7a74c908</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Avenida Aeropuerto</SimpleData>
+		<SimpleData name="ADDRESSBUI">Ponce</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00715</SimpleData>
+		<SimpleData name="FOOT_ID">{F96B552B-37D0-4DC2-844E-059336975B51}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.01079645754902,-66.56196435267002&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.56196435267,18.010796457549</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3301891</name>
+	<name>1</name>
+	<description>5c0210ca-e406-403d-9569-a6f99ac0c97a</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">d642fb48-e2d9-568d-9899-6552b4dcd2ea</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 8/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle Goyco Y Avenida Rafael Cordero</SimpleData>
+		<SimpleData name="ADDRESSBUI">Caguas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00725</SimpleData>
+		<SimpleData name="FOOT_ID">{AAB723B6-05AF-405E-BEA1-88C64218A34A}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.235127435085285,-66.0296842237386&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.0296842237386,18.2351274350853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3307167</name>
+	<name>1</name>
+	<description>37cc9b9b-8dae-4397-94e0-9405f82f551e</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">668e5b7d-4c12-5784-9153-1e00b339870f</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Avenida Conquistador Urbano Valle Verde S-66</SimpleData>
+		<SimpleData name="ADDRESSBUI">Fajardo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00738</SimpleData>
+		<SimpleData name="FOOT_ID">{BD667DA2-7EE2-418D-98C7-E7BC7357D89C}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.335558912586617,-65.65783505022357&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.6578350502236,18.3355589125866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3318183</name>
+	<name>1</name>
+	<description>315d1a6a-faa7-44cc-9355-6ed891a656d5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">861cfcf2-8d5e-5fdc-85b8-e8bfcfc92e95</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/26/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">346 Calle Méndez Vigo</SimpleData>
+		<SimpleData name="ADDRESSBUI">Dorado</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00646</SimpleData>
+		<SimpleData name="FOOT_ID">{787A4CAD-C4DE-4CE3-A6CF-E27949AC4AD0}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.46032624362567,-66.2655317750955&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.2655317750955,18.4603262436257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3318347</name>
+	<name>1</name>
+	<description>64f7eedc-2d39-4713-b31e-c7a919a652b7</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">9ca27f2a-3458-5119-85e7-73dbaf9dd4f2</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 187 Km 10 Barrio Medianía Baja</SimpleData>
+		<SimpleData name="ADDRESSBUI">Loiza</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00772</SimpleData>
+		<SimpleData name="FOOT_ID">{A5D598B4-164B-474C-BE98-317C51609623}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.43435578214721,-65.87515079463435&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8751507946344,18.4343557821472</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3322257</name>
+	<name>1</name>
+	<description>9f5ebc02-6fb8-4e54-bc6a-44985361c234</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">278487f8-8d9f-5715-ab86-c402f0edb954</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle José de Diego esquina Calle Barbosa</SimpleData>
+		<SimpleData name="ADDRESSBUI">Cabo Rojo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00623</SimpleData>
+		<SimpleData name="FOOT_ID">{E3D5C942-151C-4602-A634-7FB8E94F8330}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.089627191850422,-67.1470399142934&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.1470399142934,18.0896271918504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3325684</name>
+	<name>1</name>
+	<description>4be07b2e-4582-48af-b8b8-f56e82c9ec9c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">923127c3-f719-5756-b32d-83eddcf6d8f5</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/24/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">22 Avenida Severiano Cuevas</SimpleData>
+		<SimpleData name="ADDRESSBUI">Aguadilla</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00603</SimpleData>
+		<SimpleData name="FOOT_ID">{0FB2968B-545E-4D9D-B32A-73D0EBBEEE08}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.444497138269934,-67.1493821455856&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.1493821455856,18.4444971382699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3327392</name>
+	<name>1</name>
+	<description>32d6c964-1c13-4f15-83f1-9d01460d39de</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">5d401c5a-5e44-5d6a-b3f8-ae8ce9e0860a</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/18/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 602 Km 0 Barrio Ángeles</SimpleData>
+		<SimpleData name="ADDRESSBUI">Utuado</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00641</SimpleData>
+		<SimpleData name="FOOT_ID">{C5B70D00-A6DA-43A1-A7CF-E84520CA3D23}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.268574699893573,-66.70198667982875&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.7019866798287,18.2685746998936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3329723</name>
+	<name>1</name>
+	<description>b6050f11-da83-4008-a5c2-94791d36491a</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">955b90df-5dcb-5666-ac4c-cd64443c8076</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 760 Y Avenida Kennedy</SimpleData>
+		<SimpleData name="ADDRESSBUI">Maunabo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00707</SimpleData>
+		<SimpleData name="FOOT_ID">{D24A2388-B933-4D63-86D6-EAFBB68A1826}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.00505343940069,-65.90158664758648&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.9015866475865,18.0050534394007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3336985</name>
+	<name>1</name>
+	<description>96e0650d-62f4-4a17-8c9e-b78b7710843f</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">217d34c5-0721-4a8f-87ef-8c94bb0e6919</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 10/22/2024</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 101 Km 18.6</SimpleData>
+		<SimpleData name="ADDRESSBUI">Cabo Rojo</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00622</SimpleData>
+		<SimpleData name="FOOT_ID">{CA881CEB-E2BF-46DF-BEB1-99923FB4A0A3}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.027674581649546,-67.167494327081&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.167494327081,18.0276745816495</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3344406</name>
+	<name>1</name>
+	<description>c487ca9d-de7c-4641-bc5b-1c23da38f158</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">a7b0ef0b-0c9a-5c67-be55-0fbea2e188f9</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/3/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Calle Pimentel</SimpleData>
+		<SimpleData name="ADDRESSBUI">Rio Grande</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00745</SimpleData>
+		<SimpleData name="FOOT_ID">{F0D289C5-55D6-4B7B-925A-99727621E6D5}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.379134210172623,-65.83662233903857&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-65.8366223390386,18.3791342101726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3349813</name>
+	<name>1</name>
+	<description>982214d1-17bf-4e02-a544-96801a80afc5</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">abfbc84f-6be8-5dbf-ade1-c1f3c690194c</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/25/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">Carretera 2 Km 30</SimpleData>
+		<SimpleData name="ADDRESSBUI">Vega Alta</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00692</SimpleData>
+		<SimpleData name="FOOT_ID">{A3D443C6-A363-4213-B199-F5DD98A63A9E}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.414826426279372,-66.32903124402094&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.3290312440209,18.4148264262794</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>3351806</name>
+	<name>1</name>
+	<description>dfbde134-e045-4e26-ae06-184028e64a3c</description>
+	<ExtendedData><SchemaData schemaUrl="#tile_5">
+		<SimpleData name="PERMANENT_">d49e413f-def7-5171-9c3c-8007892d5f7d</SimpleData>
+		<SimpleData name="SOURCE_FEA">740 TNMC Update 7/13/2017</SimpleData>
+		<SimpleData name="SOURCE_DAT">U.S. Geological Survey</SimpleData>
+		<SimpleData name="SOURCE_ORI">E4</SimpleData>
+		<SimpleData name="DISTRIBUTI">740</SimpleData>
+		<SimpleData name="FTYPE">0</SimpleData>
+		<SimpleData name="FCODE">2</SimpleData>
+		<SimpleData name="ADMINTYPE">91 Calle Socorro</SimpleData>
+		<SimpleData name="ADDRESSBUI">Quebradillas</SimpleData>
+		<SimpleData name="ADDRESS">PR</SimpleData>
+		<SimpleData name="CITY">00678</SimpleData>
+		<SimpleData name="FOOT_ID">{E7A019F9-9505-4CFE-AFDC-EFA0E85741F0}</SimpleData>
+		<SimpleData name="COMPLEX_ID">Open in Apple Maps: &lt;a href=&quot;https://maps.apple.com/?q=18.47215561193016,-66.93697210726916&quot;&gt;Link&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-66.9369721072692,18.4721556119302</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
