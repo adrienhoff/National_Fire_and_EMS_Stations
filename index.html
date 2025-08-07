@@ -1,14 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>KML Viewer</title>
-  </head>
-  <body>
-    <h1>Map Viewer</h1>
-    <a href="https://YOURUSERNAME.github.io/YOURREPO/master_map.kml">
-      Open in Google Earth
-    </a>
-    <br>
-    <iframe src="https://earth.google.com/web" width="100%" height="600px"></iframe>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Google My Maps</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 1em;
+      background-color: #4285F4;
+      color: white;
+      text-align: center;
+    }
+
+    main {
+      padding: 1em;
+    }
+
+    select {
+      padding: 0.5em;
+      font-size: 1em;
+      margin-bottom: 1em;
+    }
+
+    iframe {
+      width: 100%;
+      height: 80vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Select a Map</h1>
+  </header>
+
+  <main>
+    <label for="mapSelector">Choose a map:</label>
+    <select id="mapSelector" onchange="updateMap()">
+      <option value="map1">Map 1 - Fire Stations - Upper MidWest</option>
+      <option value="map2">''</option>
+      <option value="map3">''</option>
+    </select>
+
+    <iframe id="mapFrame" src="https://www.google.com/maps/d/u/0/embed?mid=YOUR_MAP_1_ID"></iframe>
+  </main>
+
+  <script>
+    const maps = {
+      map1: "https://www.google.com/maps/d/embed?mid=1941bkjDuTMK69YhZhZJmoeiztayYF0I&ehbc=2E312F" ,
+      map2: "",
+      map3: ""
+    };
+
+    function updateMap() {
+      const selected = document.getElementById('mapSelector').value;
+      document.getElementById('mapFrame').src = maps[selected];
+    }
+  </script>
+</body>
 </html>
