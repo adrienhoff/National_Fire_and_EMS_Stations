@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>EMS Station Route Planner (Rate‐Limited)</title>
+  <title>EMS Station Route Planner</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Leaflet CSS & JS -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -16,270 +15,379 @@
     body, html { margin:0; padding:0; height:100% }
     #map { height:90% }
     #controls { padding:10px; font-family:Arial,sans-serif }
-    input { width:200px; margin-right:10px }
-    button { padding:5px 10px }
-    #output { margin-top:5px }
+    input { margin:0 5px 0 2px }
+    button { margin:0 5px }
+    #waypointControls { margin-top:10px; }
+    #waypointList div { margin-bottom:4px; }
+    #output { margin-top:8px; }
   </style>
 </head>
 <body>
   <div id="controls">
-    <form id="routeForm">
-      Start: <input type="text" id="start" placeholder="Enter address or click map" />
-      End:   <input type="text" id="end"   placeholder="Enter address or click map" />
+    <form id="routeForm" style="display:inline;">
+      Start:
+      <input type="text" id="start" placeholder="Enter address or click map" />
+      End:
+      <input type="text" id="end"   placeholder="Enter address or click map" />
+      <label>
+        Max Detour (min):
+        <input type="number" id="detour" min="0" value="20" style="width:50px" />
+      </label>
       <button type="submit">Generate Route</button>
     </form>
+    <button type="button" id="clearBtn">Clear Route</button>
+
+    <div id="waypointControls">
+      <strong>Waypoints:</strong>
+      <div id="waypointList"></div>
+
+      <input list="poiNames" id="addName" placeholder="Station name" style="width:150px"/>
+      <datalist id="poiNames"></datalist>
+      <button type="button" id="addByNameBtn">Add by Name</button>
+
+      <input type="text" id="addAddress" placeholder="Address" style="width:180px"/>
+      <button type="button" id="addByAddressBtn">Add Address</button>
+    </div>
+
     <div id="output"></div>
   </div>
   <div id="map"></div>
 
   <script>
-    // —— CONFIG —— 
-    const ORS_API_KEY        = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImEzMGQ1Y2Q3MDFiZjRhN2NhZTBhZTcyZTZlNGIzZGQ3IiwiaCI6Im11cm11cjY0In0=';
-    const MAX_DETOUR_SECONDS = 1200;
-    const FS_URL             = 'https://services3.arcgis.com/hFCLLQcFT7NdwqpA/arcgis/rest/services/Fire_and_Emergency_Medical_Service_(EMS)_Station_(2)/FeatureServer/0/query';
-    const PAGE_SIZE          = 2000;
+    const ORS_API_KEY = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImEzMGQ1Y2Q3MDFiZjRhN2NhZTBhZTcyZTZlNGIzZGQ3IiwiaCI6Im11cm11cjY0In0=';
+    const FS_URL =
+      'https://services3.arcgis.com/hFCLLQcFT7NdwqpA/arcgis/rest/services/' +
+      'Fire_and_Emergency_Medical_Service_(EMS)_Station_(2)/FeatureServer/0/query';
+    const PAGE_SIZE = 2000;
 
-    // —— HELPERS —— 
-    function sleep(ms) {
-      return new Promise(resolve => setTimeout(resolve, ms));
+    function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+    function formatDuration(sec) {
+      const h = Math.floor(sec/3600), m = Math.round((sec%3600)/60);
+      return `${h} h ${m} m`;
     }
 
-    // —— MAP SETUP —— 
     const map = L.map('map').setView([39.75, -105], 8);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    let startPoint = null, endPoint = null, allPOIs = [];
+    let routeLayer = null;
+    const detourLayer = L.layerGroup().addTo(map);
+    let startPoint = null, endPoint = null;
+    let startMarker = null, endMarker = null;
     let clickTarget = 'start';
-    const startInput = document.getElementById('start');
-    const endInput   = document.getElementById('end');
-    const outputDiv  = document.getElementById('output');
+    let allPOIs = [], currentWaypoints = [], lastBaseTime = 0;
 
-    // —— CLICK TO SET START/END —— 
+    const startInput  = document.getElementById('start');
+    const endInput    = document.getElementById('end');
+    const detourInput = document.getElementById('detour');
+    const poiNamesList  = document.getElementById('poiNames');
+    const waypointList  = document.getElementById('waypointList');
+    const outputDiv     = document.getElementById('output');
+    const addByNameBtn    = document.getElementById('addByNameBtn');
+    const addByAddressBtn = document.getElementById('addByAddressBtn');
+
     map.on('click', e => {
       const { lat, lng } = e.latlng;
       if (clickTarget === 'start') {
-        startPoint = [lng, lat];
+        if (startMarker) map.removeLayer(startMarker);
+        startMarker = L.marker([lat,lng]).bindPopup('Start').addTo(map).openPopup();
+        startPoint = [lng,lat];
         startInput.value = `${lat.toFixed(5)}, ${lng.toFixed(5)}`;
       } else {
-        endPoint = [lng, lat];
+        if (endMarker) map.removeLayer(endMarker);
+        endMarker = L.marker([lat,lng]).bindPopup('End').addTo(map).openPopup();
+        endPoint = [lng,lat];
         endInput.value = `${lat.toFixed(5)}, ${lng.toFixed(5)}`;
       }
-      L.marker([lat, lng])
-       .bindPopup(clickTarget.charAt(0).toUpperCase() + clickTarget.slice(1))
-       .addTo(map).openPopup();
       clickTarget = clickTarget === 'start' ? 'end' : 'start';
     });
 
-    // —— FETCH & DRAW POIs —— 
     async function fetchAllPOIs() {
-      let features = [], offset = 0;
-      while (true) {
-        const url = `${FS_URL}?where=1%3D1&outFields=NAME&outSR=4326&f=geojson`
+      let feats = [], offset = 0;
+      while (1) {
+        const url = `${FS_URL}?where=1=1&outFields=*&outSR=4326&f=geojson`
                   + `&resultOffset=${offset}&resultRecordCount=${PAGE_SIZE}`;
-        const res = await fetch(url, { mode: 'cors' });
-        if (!res.ok) throw new Error('POI fetch failed: ' + res.status);
-        const data = await res.json();
-        const batch = data.features || [];
-        features = features.concat(batch);
-        if (batch.length < PAGE_SIZE) break;
+        const res = await fetch(url, { mode:'cors' });
+        if (!res.ok) throw new Error('POI fetch failed: '+res.status);
+        const js = await res.json();
+        feats = feats.concat(js.features||[]);
+        if ((js.features||[]).length < PAGE_SIZE) break;
         offset += PAGE_SIZE;
       }
-      return features;
+      return feats;
     }
 
     async function loadPOIs() {
       try {
         allPOIs = await fetchAllPOIs();
         allPOIs.forEach(f => {
-          const [lng, lat] = f.geometry.coordinates;
-          const name = f.properties.NAME || 'Unnamed';
-          L.circleMarker([lat, lng], { radius: 3, color: 'gray' })
-           .addTo(map).bindPopup(name);
+          if (!f.geometry || !f.properties) return;
+          const [lng,lat] = f.geometry.coordinates;
+          const name = f.properties.NAME || f.properties.StationName || 'Unnamed';
+          const marker = L.circleMarker([lat,lng], { radius:3, color:'gray' })
+                          .addTo(map).bindPopup(name);
+          marker.on('click', () => addWaypoint(lat, lng, name));
+          const opt = document.createElement('option');
+          opt.value = name;
+          poiNamesList.appendChild(opt);
         });
-      } catch (err) {
+      } catch(err) {
         outputDiv.innerText = 'Error loading POIs: ' + err.message;
       }
     }
     loadPOIs();
 
-    // —— SIMPLE GEOCODER —— 
     async function geocode(q) {
-      const url = `https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates`
-                + `?SingleLine=${encodeURIComponent(q)}&f=json`;
-      const res = await fetch(url, { mode: 'cors' });
-      if (!res.ok) throw new Error('Geocode failed: ' + res.status);
+      const url =
+        'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/' +
+        `findAddressCandidates?SingleLine=${encodeURIComponent(q)}&f=json`;
+      const res = await fetch(url, { mode:'cors' });
+      if (!res.ok) throw new Error('Geocode failed: '+res.status);
       const j = await res.json();
       const loc = j.candidates?.[0]?.location;
-      if (loc) return [loc.x, loc.y];
-      throw new Error('No geocode candidate for ' + q);
+      if (!loc) throw new Error('No geocode for '+q);
+      return [loc.x,loc.y];
     }
 
-    // —— JSON-only duration with retry on 429 —— 
     async function getDuration(coords) {
       const url = 'https://api.openrouteservice.org/v2/directions/driving-car/json';
       const body = JSON.stringify({ coordinates: coords });
-      const maxRetries = 3;
-
-      for (let attempt = 0; attempt <= maxRetries; attempt++) {
+      for (let i=0; i<4; i++){
         const res = await fetch(url, {
-          mode: 'cors',
-          method: 'POST',
-          headers: {
+          mode:'cors', method:'POST',
+          headers:{
             'Authorization': ORS_API_KEY,
-            'Content-Type':  'application/json',
-            'Accept':        'application/json'
-          },
-          body
+            'Content-Type': 'application/json'
+          }, body
         });
-
         if (res.ok) {
           const j = await res.json();
           return j.routes[0].summary.duration;
         }
-
-        if (res.status === 429 && attempt < maxRetries) {
-          // Rate limited—wait & retry
-          const retryAfter = parseInt(res.headers.get('Retry-After') || '', 10);
-          const wait = retryAfter
-            ? retryAfter * 1000
-            : Math.pow(2, attempt) * 1000;
-          console.warn(`ORS 429, retrying in ${wait}ms (attempt ${attempt+1})`);
-          await sleep(wait);
+        if (res.status===429) {
+          const ra = +res.headers.get('Retry-After')||1;
+          await sleep(ra*1000);
           continue;
         }
-
-        // parse ORS error payload
-        const err = await res.json().catch(() => ({}));
-        if (err.error?.code === 2010) {
-          // unroutable point—treat as infinite duration
-          return Infinity;
-        }
-        throw new Error(
-          `ORS error ${err.error?.code || res.status}: ` +
-          (err.error?.message || JSON.stringify(err))
-        );
+        const e = await res.json().catch(_=>({}));
+        if (e.error?.code===2010) return Infinity;
+        throw new Error('ORS error '+(e.error?.code||res.status));
       }
-      throw new Error('ORS /json retry limit exceeded');
+      throw new Error('ORS retry limit');
     }
 
-    // —— FETCH GEOJSON FOR DRAWING ROUTE —— 
     async function fetchRouteGeo(coords) {
-      const url  = 'https://api.openrouteservice.org/v2/directions/driving-car/geojson';
-      const opts = {
-        mode: 'cors',
-        method: 'POST',
-        headers: {
-          'Authorization': ORS_API_KEY,
-          'Content-Type':  'application/json',
-          'Accept':        'application/json, application/geo+json'
-        },
-        body: JSON.stringify({ coordinates: coords })
-      };
-
-      const res = await fetch(url, opts);
+      const res = await fetch(
+        'https://api.openrouteservice.org/v2/directions/driving-car/geojson', {
+          mode:'cors', method:'POST',
+          headers:{
+            'Authorization': ORS_API_KEY,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ coordinates: coords })
+        }
+      );
       if (!res.ok) {
-        const payload = await res.json().catch(() => ({}));
-        console.error('ORS GeoJSON error:', payload.error);
-        throw new Error(
-          `ORS GeoJSON error ${payload.error?.code || res.status}: ` +
-          (payload.error?.message || JSON.stringify(payload))
-        );
+        const p = await res.json().catch(_=>({}));
+        throw new Error('ORS geo error '+(p.error?.code||res.status));
       }
-      const geo = await res.json();
-      return {
-        geo,
-        duration: geo.features[0].properties.summary.duration
-      };
+      return res.json();
     }
 
-    // —— BBOX UTILITY —— 
-    function getBBox(coords, pad=0.1) {
-      const lats = coords.map(c=>c[1]), lngs = coords.map(c=>c[0]);
-      return {
-        minLat: Math.min(...lats)-pad,
-        maxLat: Math.max(...lats)+pad,
-        minLng: Math.min(...lngs)-pad,
-        maxLng: Math.max(...lngs)+pad
-      };
+    async function addWaypoint(lat, lng, name) {
+      if (!startPoint || !endPoint) {
+        return alert('Set both start and end before adding waypoints');
+      }
+      let detour = 0;
+      try {
+        const toDur = await getDuration([ startPoint, [lng,lat] ]);
+        const frDur = await getDuration([ [lng,lat], endPoint ]);
+        detour = (toDur!==Infinity && frDur!==Infinity)
+               ? toDur + frDur - lastBaseTime
+               : 0;
+      } catch {
+        detour = 0;
+      }
+      currentWaypoints.push({ lat, lng, name, detour });
+      L.circleMarker([lat, lng], { radius:6, color:'orange' })
+       .addTo(detourLayer)
+       .bindPopup(name);
+      await updateShareLinksAndUI(lastBaseTime);
     }
 
-    // —— FORM SUBMIT —— 
+    async function updateShareLinksAndUI(baseTime) {
+      outputDiv.innerHTML = '';
+
+      const stopCount        = currentWaypoints.length;
+      const stopOverhead     = stopCount * 3600;
+      const detourDrivingTime = currentWaypoints.reduce((sum, wp) =>
+        sum + (wp.detour || 0),
+      0);
+
+      const pBase = document.createElement('p');
+      pBase.innerHTML = `Base drive time: <strong>${formatDuration(baseTime)}</strong>`;
+      outputDiv.appendChild(pBase);
+
+      const pDetour = document.createElement('p');
+      pDetour.innerHTML = `Detour driving time: <strong>${formatDuration(detourDrivingTime)}</strong>`;
+      outputDiv.appendChild(pDetour);
+
+      const pOverhead = document.createElement('p');
+      pOverhead.innerHTML =
+        `Stops overhead (${stopCount} stop${stopCount===1?'':'s'} @ 1 h each): `
+        + `<strong>${formatDuration(stopOverhead)}</strong>`;
+      outputDiv.appendChild(pOverhead);
+
+      outputDiv.appendChild(document.createElement('hr'));
+
+      const allCoords = [
+        startPoint,
+        ...currentWaypoints.map(wp => [wp.lng, wp.lat]),
+        endPoint
+      ];
+
+      let integratedTime;
+        try {
+          const fullRouteGeo = await fetchRouteGeo(allCoords);
+          integratedTime = fullRouteGeo.features[0].properties.summary.duration;
+          if (routeLayer) map.removeLayer(routeLayer);
+          routeLayer = L.geoJSON(fullRouteGeo, { color:'blue', weight:3 }).addTo(map);
+        } catch(err) {
+          console.error('Integrated ORS fetch failed:', err);
+          // only sum driving times here
+          integratedTime = baseTime + detourDrivingTime;
+        }
+
+        const totalWithOverhead = integratedTime + stopOverhead;
+
+        const pIntegrated = document.createElement('p');
+        pIntegrated.innerHTML =
+          `Est. total time (incl. stops): <strong>${formatDuration(totalWithOverhead)}</strong>`;
+        outputDiv.appendChild(pIntegrated);
+
+      const pLinks = document.createElement('p');
+      // raw waypoint strings
+      const wpStr    = currentWaypoints.map(wp => `${wp.lat},${wp.lng}`).join('|');
+      const appleStr = [
+        ...currentWaypoints.map(wp => `${wp.lat},${wp.lng}`),
+        `${endPoint[1]},${endPoint[0]}`
+      ].join('+to:');
+
+      const gUrl = `https://www.google.com/maps/dir/?api=1`
+        + `&origin=${startPoint[1]},${startPoint[0]}`
+        + `&destination=${endPoint[1]},${endPoint[0]}`
+        + `&waypoints=${encodeURIComponent(wpStr)}`;
+
+      const aUrl = `https://maps.apple.com/?saddr=${startPoint[1]},${startPoint[0]}`
+        + `&daddr=${encodeURIComponent(appleStr)}`;
+
+      const gLinkEl = document.createElement('a');
+      gLinkEl.href = gUrl;
+      gLinkEl.target = '_blank';
+      gLinkEl.textContent = 'Open in Google Maps';
+      pLinks.appendChild(gLinkEl);
+
+      pLinks.appendChild(document.createElement('br'));
+
+      const aLinkEl = document.createElement('a');
+      aLinkEl.href = aUrl;
+      aLinkEl.target = '_blank';
+      aLinkEl.textContent = 'Open in Apple Maps';
+      pLinks.appendChild(aLinkEl);
+
+      outputDiv.appendChild(pLinks);
+    }
+
+
+    addByNameBtn.addEventListener('click', async () => {
+      const name = document.getElementById('addName').value.trim();
+      if (!name) return alert('Pick a station name.');
+      const feat = allPOIs.find(f => {
+        const n = f.properties.NAME || f.properties.StationName;
+        return n && n.toLowerCase() === name.toLowerCase();
+      });
+      if (!feat) return alert('Station not found.');
+      const [lng, lat] = feat.geometry.coordinates;
+      await addWaypoint(lat, lng, name);
+    });
+
+    addByAddressBtn.addEventListener('click', async () => {
+      const addr = document.getElementById('addAddress').value.trim();
+      if (!addr) return alert('Enter an address.');
+      let coords;
+      try { coords = await geocode(addr); }
+      catch(e) { return alert('Geocode failed: ' + e.message); }
+      const [lng, lat] = coords;
+      await addWaypoint(lat, lng, addr);
+    });
+
+    document.getElementById('clearBtn').addEventListener('click', () => {
+      if (routeLayer) map.removeLayer(routeLayer);
+      detourLayer.clearLayers();
+      if (startMarker) map.removeLayer(startMarker);
+      if (endMarker)   map.removeLayer(endMarker);
+      startInput.value = '';
+      endInput.value   = '';
+      outputDiv.innerHTML = '';
+      waypointList.innerHTML = '';
+      currentWaypoints = [];
+      startPoint = endPoint = null;
+      clickTarget = 'start';
+    });
+
     document.getElementById('routeForm').addEventListener('submit', async e => {
       e.preventDefault();
+      if (routeLayer) map.removeLayer(routeLayer);
+      detourLayer.clearLayers();
+      waypointList.innerHTML = '';
       outputDiv.innerText = 'Calculating…';
 
       try {
-        // 1) geocode if needed
         if (!startPoint) startPoint = await geocode(startInput.value.trim());
         if (!endPoint)   endPoint   = await geocode(endInput.value.trim());
 
-        // 2) main route & base time
-        const { geo:routeGeo, duration:baseTime } =
-          await fetchRouteGeo([startPoint, endPoint]);
+        const routeGeo = await fetchRouteGeo([ startPoint, endPoint ]);
+        const baseTime = routeGeo.features[0].properties.summary.duration;
+        lastBaseTime = baseTime;
+        routeLayer = L.geoJSON(routeGeo, { color:'blue', weight:3 }).addTo(map);
 
-        // clear old route line
-        map.eachLayer(l => {
-          if (l.feature?.geometry?.type === 'LineString') map.removeLayer(l);
-        });
-        L.geoJSON(routeGeo, { color:'blue', weight:3 }).addTo(map);
-
-        // 3) filter POIs by bbox
         const coords = routeGeo.features[0].geometry.coordinates;
-        const { minLat, maxLat, minLng, maxLng } = getBBox(coords);
+        const lats = coords.map(c=>c[1]), lngs = coords.map(c=>c[0]);
+        const pad = 0.1;
+        const minLat = Math.min(...lats)-pad, maxLat = Math.max(...lats)+pad;
+        const minLng = Math.min(...lngs)-pad, maxLng = Math.max(...lngs)+pad;
         const candidates = allPOIs.filter(f => {
-          const [lng, lat] = f.geometry.coordinates;
+          const [lng,lat] = f.geometry.coordinates;
           return lat>=minLat && lat<=maxLat && lng>=minLng && lng<=maxLng;
         });
 
-        // clear old green markers
-        map.eachLayer(l => {
-          if (l.options?.color === 'green') map.removeLayer(l);
-        });
-
-        // 4) check detours in batches of 5
         const valid = [];
-        const batchSize = 5;
-        for (let i = 0; i < candidates.length; i += batchSize) {
-          const chunk = candidates.slice(i, i + batchSize);
+        for (let i=0; i<candidates.length; i+=5) {
+          const chunk = candidates.slice(i,i+5);
           await Promise.all(chunk.map(async f => {
-            const [lng, lat] = f.geometry.coordinates;
+            if (!f.geometry||!f.properties) return;
+            const [lng,lat] = f.geometry.coordinates;
+            const name = f.properties.NAME || 'Unnamed';
             try {
-              const toDur = await getDuration([startPoint, [lng,lat]]);
-              const frDur = await getDuration([[lng,lat], endPoint]);
-              if (toDur !== Infinity && frDur !== Infinity) {
-                const detour = toDur + frDur - baseTime;
-                if (detour <= MAX_DETOUR_SECONDS) {
-                  valid.push({ lat, lng });
-                  L.circleMarker([lat, lng], { radius:6, color:'green' })
-                   .addTo(map);
-                }
+              const toDur = await getDuration([ startPoint, [lng,lat] ]);
+              const frDur = await getDuration([ [lng,lat], endPoint ]);
+              const det = (toDur!==Infinity && frDur!==Infinity)
+                        ? toDur + frDur - baseTime
+                        : Infinity;
+              if (det <= +(detourInput.value||20)*60) {
+                valid.push({ lat, lng, name, detour: det });
+                L.circleMarker([lat, lng], { radius:6, color:'green' })
+                 .addTo(detourLayer)
+                 .bindPopup(name);
               }
-            } catch (_) {
-              // skip on any persistent error
-            }
+            } catch {}
           }));
-          // small pause between batches to avoid bursts
           await sleep(200);
         }
 
-        // 5) share links
-        const wp    = valid.map(p => `${p.lat},${p.lng}`);
-        const gLink = `https://www.google.com/maps/dir/?api=1`
-                    + `&origin=${startPoint[1]},${startPoint[0]}`
-                    + `&destination=${endPoint[1]},${endPoint[0]}`
-                    + `&waypoints=${wp.join('|')}`;
-        const aLink = `https://maps.apple.com/?saddr=${startPoint[1]},${startPoint[0]}`
-                    + `&daddr=${[...wp,`${endPoint[1]},${endPoint[0]}`].join('+to:')}`;
-
-                    
-
-        outputDiv.innerHTML = `
-          <p>Valid POIs: ${valid.length}</p>
-          <p><a href="${gLink}" target="_blank">Open in Google Maps</a></p>
-          <p><a href="${aLink}"  target="_blank">Open in Apple Maps</a></p>
-        `;
-      } catch (err) {
-        console.error('Route generation error:', err);
+        currentWaypoints = valid.slice();
+        await updateShareLinksAndUI(baseTime);
+      } catch(err) {
+        console.error(err);
         outputDiv.innerText = 'Error: ' + err.message;
       }
     });
