@@ -363,13 +363,24 @@
       });
 
 
-      const detourDrivingTime = currentWaypoints.reduce((sum, wp) => sum + (wp.detour || 0), 0);
-      const pBase = document.createElement('p');    pBase.innerHTML = `Base drive time: <strong>${formatDuration(baseTime)}</strong>`;
-      const pDetour = document.createElement('p');  pDetour.innerHTML = `Detour driving time: <strong>${formatDuration(detourDrivingTime)}</strong>`;
-      const pOver = document.createElement('p');    pOver.innerHTML = `Stops overhead: <strong>${formatDuration(currentWaypoints.length * 3600)}</strong>`;
-      const totalTime = baseTime + detourDrivingTime + currentWaypoints.length; // (kept as in your code)
-      const pTotal = document.createElement('p');   pTotal.innerHTML = `Total estimated time: <strong>${formatDuration(totalTime)}</strong>`;
-      outputDiv.appendChild(pBase); outputDiv.appendChild(pDetour); outputDiv.appendChild(pOver); outputDiv.appendChild(pTotal);
+      const detourDrivingTime = currentWaypoints.reduce(
+        (sum, wp) => sum + (wp.detour || 0), 
+        0
+      );
+
+      // 1 hour per stop (in seconds) — adjust as needed
+      const overheadPerStop = 3600;
+      const overhead = currentWaypoints.length * overheadPerStop;
+
+      const pBase   = document.createElement('p'); pBase.innerHTML   = `Base drive time: <strong>${formatDuration(baseTime)}</strong>`;
+      const pDetour = document.createElement('p'); pDetour.innerHTML = `Detour driving time: <strong>${formatDuration(detourDrivingTime)}</strong>`;
+      const pOver   = document.createElement('p'); pOver.innerHTML   = `Stops overhead: <strong>${formatDuration(overhead)}</strong>`;
+
+      // ✅ include overhead (in seconds) not just the count
+      const totalTime = baseTime + detourDrivingTime + overhead;
+
+      const pTotal  = document.createElement('p'); pTotal.innerHTML  = `Total estimated time: <strong>${formatDuration(totalTime)}</strong>`;
+      outputDiv.append(pBase, pDetour, pOver, pTotal);
 
       // Links
       const pLinks = document.createElement('p');
