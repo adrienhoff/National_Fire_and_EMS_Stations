@@ -5,70 +5,179 @@
   <title>EMS Station Route Planner</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Leaflet CSS & JS -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-  <style>
-    body, html { margin:0; padding:0; height:100% }
-    #map { height:90% }
-    #controls { padding:10px; font-family:Arial,sans-serif }
-    input { margin:0 5px 0 2px }
-    button { margin:0 5px }
-    #waypointControls { margin-top:10px; }
-    #waypointList div { margin-bottom:4px; }
-    #output { margin-top:8px; }
-  </style>
-</head>
-<body>
+ <style>
+  body, html { 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    font-family: Arial, sans-serif;
+    color: white;  /* Make all text white */
+    background-color: #000; /* Optional: make the background black */
+  }
+
+  /* Map Styling */
+  #map { 
+    height: 100vh; 
+    width: 100%; 
+  }
+
+  /* Controls Panel Styling */
+  #controls { 
+    padding: 20px; 
+    background-color: #000000;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(239, 237, 237, 0.1);
+    max-width: 350px;
+    width: 100%;
+  }
+
+  #controls h3 {
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  /* Company Logo */
+  #controls img {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 100px; /* Adjust this based on the actual size of your logo */
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  /* Input Fields Styling */
+  input[type="text"], input[type="number"], button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #fffefe; /* White border */
+    margin: 5px 0;
+    background-color: #333; /* Black background for inputs */
+    color: white; /* White text inside the inputs */
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #3498db;
+  }
+
+  .waypoint-btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .waypoint-btns input {
+    width: 70%;
+    margin-right: 10px;
+  }
+
+  .waypoint-btns button {
+    margin-top: 10px;
+  }
+
+  #output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #020202;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fdfeff; /* White text */
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #controls {
+      max-width: 100%;
+      padding: 10px;
+    }
+
+    .waypoint-btns input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+</style>
+
+  <!-- Controls Panel -->
   <div id="controls">
-    <form id="routeForm" style="display:inline;">
-      Start:
-      <input type="text" id="start" placeholder="Enter address or click map" />
-      End:
-      <input type="text" id="end"   placeholder="Enter address or click map" />
-      <label>
-        Max Detour (min):
-        <input type="number" id="detour" min="0" value="20" style="width:50px" />
-      </label>
+    <!-- Company Logo -->
+    <img src="C:\Users\ahoff\Downloads\IMG_6109.jpg" alt="Company Logo">
+
+    <h3>Station Route Planner</h3>
+    <form id="routeForm">
+      <div class="form-group">
+        <input type="text" id="start" placeholder="Start address or click map" />
+      </div>
+      <div class="form-group">
+        <input type="text" id="end" placeholder="End address or click map" />
+      </div>
+      <div class="form-group">
+        <label for="detour">Max Detour (min):</label>
+        <input type="number" id="detour" min="0" value="20" />
+      </div>
       <button type="submit">Generate Route</button>
     </form>
+
     <button type="button" id="clearBtn">Clear Route</button>
 
-    <div id="waypointControls">
+    <div class="waypoint-btns">
       <strong>Waypoints:</strong>
       <div id="waypointList"></div>
 
-      <input list="poiNames" id="addName" placeholder="Station name" style="width:150px"/>
+      <input list="poiNames" id="addName" placeholder="Station name" />
       <datalist id="poiNames"></datalist>
       <button type="button" id="addByNameBtn">Add by Name</button>
 
-      <input type="text" id="addAddress" placeholder="Address" style="width:180px"/>
+      <input type="text" id="addAddress" placeholder="Address" />
       <button type="button" id="addByAddressBtn">Add Address</button>
     </div>
 
     <div id="output"></div>
   </div>
+
+  <!-- Map -->
   <div id="map"></div>
 
   <script>
+    // —— CONFIG —— 
     const ORS_API_KEY = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImEzMGQ1Y2Q3MDFiZjRhN2NhZTBhZTcyZTZlNGIzZGQ3IiwiaCI6Im11cm11cjY0In0=';
-    const FS_URL =
-      'https://services3.arcgis.com/hFCLLQcFT7NdwqpA/arcgis/rest/services/' +
-      'Fire_and_Emergency_Medical_Service_(EMS)_Station_(2)/FeatureServer/0/query';
+    const FS_URL = 'https://services3.arcgis.com/hFCLLQcFT7NdwqpA/arcgis/rest/services/Fire_and_Emergency_Medical_Service_(EMS)_Station_(2)/FeatureServer/0/query';
     const PAGE_SIZE = 2000;
 
+    // —— HELPERS —— 
     function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
     function formatDuration(sec) {
-      const h = Math.floor(sec/3600), m = Math.round((sec%3600)/60);
+      const h = Math.floor(sec / 3600), m = Math.round((sec % 3600) / 60);
       return `${h} h ${m} m`;
     }
 
+    // —— MAP SETUP —— 
     const map = L.map('map').setView([39.75, -105], 8);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
+    // —— STATE —— 
     let routeLayer = null;
     const detourLayer = L.layerGroup().addTo(map);
     let startPoint = null, endPoint = null;
@@ -76,6 +185,7 @@
     let clickTarget = 'start';
     let allPOIs = [], currentWaypoints = [], lastBaseTime = 0;
 
+    // —— DOM REFS —— 
     const startInput  = document.getElementById('start');
     const endInput    = document.getElementById('end');
     const detourInput = document.getElementById('detour');
@@ -84,33 +194,35 @@
     const outputDiv     = document.getElementById('output');
     const addByNameBtn    = document.getElementById('addByNameBtn');
     const addByAddressBtn = document.getElementById('addByAddressBtn');
+    const clearBtn = document.getElementById('clearBtn');
 
+    // —— CLICK MAP TO SET START/END —— 
     map.on('click', e => {
       const { lat, lng } = e.latlng;
       if (clickTarget === 'start') {
         if (startMarker) map.removeLayer(startMarker);
-        startMarker = L.marker([lat,lng]).bindPopup('Start').addTo(map).openPopup();
-        startPoint = [lng,lat];
+        startMarker = L.marker([lat, lng]).bindPopup('Start').addTo(map).openPopup();
+        startPoint = [lng, lat];
         startInput.value = `${lat.toFixed(5)}, ${lng.toFixed(5)}`;
       } else {
         if (endMarker) map.removeLayer(endMarker);
-        endMarker = L.marker([lat,lng]).bindPopup('End').addTo(map).openPopup();
-        endPoint = [lng,lat];
+        endMarker = L.marker([lat, lng]).bindPopup('End').addTo(map).openPopup();
+        endPoint = [lng, lat];
         endInput.value = `${lat.toFixed(5)}, ${lng.toFixed(5)}`;
       }
       clickTarget = clickTarget === 'start' ? 'end' : 'start';
     });
 
+    // —— LOAD POIs —— 
     async function fetchAllPOIs() {
       let feats = [], offset = 0;
-      while (1) {
-        const url = `${FS_URL}?where=1=1&outFields=*&outSR=4326&f=geojson`
-                  + `&resultOffset=${offset}&resultRecordCount=${PAGE_SIZE}`;
-        const res = await fetch(url, { mode:'cors' });
-        if (!res.ok) throw new Error('POI fetch failed: '+res.status);
+      while (true) {
+        const url = `${FS_URL}?where=1=1&outFields=*&outSR=4326&f=geojson&resultOffset=${offset}&resultRecordCount=${PAGE_SIZE}`;
+        const res = await fetch(url, { mode: 'cors' });
+        if (!res.ok) throw new Error('POI fetch failed: ' + res.status);
         const js = await res.json();
-        feats = feats.concat(js.features||[]);
-        if ((js.features||[]).length < PAGE_SIZE) break;
+        feats = feats.concat(js.features || []);
+        if ((js.features || []).length < PAGE_SIZE) break;
         offset += PAGE_SIZE;
       }
       return feats;
@@ -121,182 +233,206 @@
         allPOIs = await fetchAllPOIs();
         allPOIs.forEach(f => {
           if (!f.geometry || !f.properties) return;
-          const [lng,lat] = f.geometry.coordinates;
+          const [lng, lat] = f.geometry.coordinates;
           const name = f.properties.NAME || f.properties.StationName || 'Unnamed';
-          const marker = L.circleMarker([lat,lng], { radius:3, color:'gray' })
-                          .addTo(map).bindPopup(name);
+          const marker = L.circleMarker([lat, lng], { radius: 3, color: 'gray' })
+                            .addTo(map).bindPopup(name);
           marker.on('click', () => addWaypoint(lat, lng, name));
           const opt = document.createElement('option');
           opt.value = name;
           poiNamesList.appendChild(opt);
         });
-      } catch(err) {
+      } catch (err) {
         outputDiv.innerText = 'Error loading POIs: ' + err.message;
       }
     }
     loadPOIs();
 
-    async function geocode(q) {
-      const url =
-        'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/' +
-        `findAddressCandidates?SingleLine=${encodeURIComponent(q)}&f=json`;
-      const res = await fetch(url, { mode:'cors' });
-      if (!res.ok) throw new Error('Geocode failed: '+res.status);
-      const j = await res.json();
-      const loc = j.candidates?.[0]?.location;
-      if (!loc) throw new Error('No geocode for '+q);
-      return [loc.x,loc.y];
-    }
-
+    // —— ORS DURATION —— 
     async function getDuration(coords) {
       const url = 'https://api.openrouteservice.org/v2/directions/driving-car/json';
       const body = JSON.stringify({ coordinates: coords });
-      for (let i=0; i<4; i++){
+      for (let i = 0; i < 4; i++) {
         const res = await fetch(url, {
-          mode:'cors', method:'POST',
-          headers:{
-            'Authorization': ORS_API_KEY,
-            'Content-Type': 'application/json'
-          }, body
+          mode: 'cors', method: 'POST',
+          headers: { 'Authorization': ORS_API_KEY, 'Content-Type': 'application/json' },
+          body
         });
         if (res.ok) {
           const j = await res.json();
           return j.routes[0].summary.duration;
         }
-        if (res.status===429) {
-          const ra = +res.headers.get('Retry-After')||1;
-          await sleep(ra*1000);
+        if (res.status === 429) {
+          const ra = +res.headers.get('Retry-After') || 1;
+          await sleep(ra * 1000);
           continue;
         }
-        const e = await res.json().catch(_=>({}));
-        if (e.error?.code===2010) return Infinity;
-        throw new Error('ORS error '+(e.error?.code||res.status));
+        const e = await res.json().catch(() => ({}));
+        if (e.error?.code === 2010) return Infinity;
+        throw new Error('ORS error ' + (e.error?.code || res.status));
       }
       throw new Error('ORS retry limit');
     }
 
+    // —— ORS GEOJSON —— 
     async function fetchRouteGeo(coords) {
       const res = await fetch(
         'https://api.openrouteservice.org/v2/directions/driving-car/geojson', {
-          mode:'cors', method:'POST',
-          headers:{
-            'Authorization': ORS_API_KEY,
-            'Content-Type': 'application/json'
-          },
+          mode: 'cors', method: 'POST',
+          headers: { 'Authorization': ORS_API_KEY, 'Content-Type': 'application/json' },
           body: JSON.stringify({ coordinates: coords })
         }
       );
       if (!res.ok) {
-        const p = await res.json().catch(_=>({}));
-        throw new Error('ORS geo error '+(p.error?.code||res.status));
+        const p = await res.json().catch(() => ({}));
+        throw new Error('ORS geo error ' + (p.error?.code || res.status));
       }
       return res.json();
     }
 
+    // —— ADD WAYPOINT —— 
     async function addWaypoint(lat, lng, name) {
-      if (!startPoint || !endPoint) {
-        return alert('Set both start and end before adding waypoints');
-      }
+      if (!startPoint || !endPoint) return alert('Set both start and end before adding waypoints');
       let detour = 0;
       try {
-        const toDur = await getDuration([ startPoint, [lng,lat] ]);
-        const frDur = await getDuration([ [lng,lat], endPoint ]);
-        detour = (toDur!==Infinity && frDur!==Infinity)
-               ? toDur + frDur - lastBaseTime
-               : 0;
+        const toDur = await getDuration([startPoint, [lng, lat]]);
+        const frDur = await getDuration([[lng, lat], endPoint]);
+        detour = (toDur !== Infinity && frDur !== Infinity)
+              ? toDur + frDur - lastBaseTime
+              : 0;
       } catch {
         detour = 0;
       }
       currentWaypoints.push({ lat, lng, name, detour });
-      L.circleMarker([lat, lng], { radius:6, color:'orange' })
-       .addTo(detourLayer)
-       .bindPopup(name);
+      L.circleMarker([lat, lng], { radius: 6, color: 'orange' })
+      .addTo(detourLayer)
+      .bindPopup(name);
       await updateShareLinksAndUI(lastBaseTime);
     }
 
+    // —— UPDATE UI & LINKS —— 
     async function updateShareLinksAndUI(baseTime) {
+      waypointList.innerHTML = '';
       outputDiv.innerHTML = '';
+      currentWaypoints.forEach((wp, idx) => {
+        const div = document.createElement('div');
+        div.textContent = `${wp.name} (${wp.lat.toFixed(5)}, ${wp.lng.toFixed(5)})`;
+        const btn = document.createElement('button');
+        btn.textContent = 'Remove';
+        btn.onclick = () => {
+          detourLayer.eachLayer(layer => {
+            const ll = layer.getLatLng?.();
+            if (ll && Math.abs(ll.lat - wp.lat) < 1e-6 && Math.abs(ll.lng - wp.lng) < 1e-6) {
+              detourLayer.removeLayer(layer);
+            }
+          });
+          currentWaypoints.splice(idx, 1);
+          updateShareLinksAndUI(baseTime);
+        };
+        div.appendChild(btn);
+        waypointList.appendChild(div);
+      });
 
-      const stopCount        = currentWaypoints.length;
-      const stopOverhead     = stopCount * 3600;
-      const detourDrivingTime = currentWaypoints.reduce((sum, wp) =>
-        sum + (wp.detour || 0),
-      0);
-
+      const detourDrivingTime = currentWaypoints.reduce((sum, wp) => sum + (wp.detour || 0), 0);
       const pBase = document.createElement('p');
       pBase.innerHTML = `Base drive time: <strong>${formatDuration(baseTime)}</strong>`;
       outputDiv.appendChild(pBase);
-
       const pDetour = document.createElement('p');
       pDetour.innerHTML = `Detour driving time: <strong>${formatDuration(detourDrivingTime)}</strong>`;
       outputDiv.appendChild(pDetour);
+      const pOver = document.createElement('p');
+      pOver.innerHTML = `Stops overhead: <strong>${formatDuration(currentWaypoints.length * 3600)}</strong>`;
+      outputDiv.appendChild(pOver);
 
-      const pOverhead = document.createElement('p');
-      pOverhead.innerHTML =
-        `Stops overhead (${stopCount} stop${stopCount===1?'':'s'} @ 1 h each): `
-        + `<strong>${formatDuration(stopOverhead)}</strong>`;
-      outputDiv.appendChild(pOverhead);
+      const totalTime = baseTime + detourDrivingTime + currentWaypoints.length;
+      const pTotal = document.createElement('p');
+      pTotal.innerHTML = `Total estimated time: <strong>${formatDuration(totalTime)}</strong>`;
+      outputDiv.appendChild(pTotal);
 
-      outputDiv.appendChild(document.createElement('hr'));
-
-      const allCoords = [
-        startPoint,
-        ...currentWaypoints.map(wp => [wp.lng, wp.lat]),
-        endPoint
-      ];
-
-      let integratedTime;
-        try {
-          const fullRouteGeo = await fetchRouteGeo(allCoords);
-          integratedTime = fullRouteGeo.features[0].properties.summary.duration;
-          if (routeLayer) map.removeLayer(routeLayer);
-          routeLayer = L.geoJSON(fullRouteGeo, { color:'blue', weight:3 }).addTo(map);
-        } catch(err) {
-          console.error('Integrated ORS fetch failed:', err);
-          // only sum driving times here
-          integratedTime = baseTime + detourDrivingTime;
-        }
-
-        const totalWithOverhead = integratedTime + stopOverhead;
-
-        const pIntegrated = document.createElement('p');
-        pIntegrated.innerHTML =
-          `Est. total time (incl. stops): <strong>${formatDuration(totalWithOverhead)}</strong>`;
-        outputDiv.appendChild(pIntegrated);
-
+      // Links
       const pLinks = document.createElement('p');
-      // raw waypoint strings
-      const wpStr    = currentWaypoints.map(wp => `${wp.lat},${wp.lng}`).join('|');
-      const appleStr = [
-        ...currentWaypoints.map(wp => `${wp.lat},${wp.lng}`),
-        `${endPoint[1]},${endPoint[0]}`
-      ].join('+to:');
-
-      const gUrl = `https://www.google.com/maps/dir/?api=1`
-        + `&origin=${startPoint[1]},${startPoint[0]}`
-        + `&destination=${endPoint[1]},${endPoint[0]}`
-        + `&waypoints=${encodeURIComponent(wpStr)}`;
-
-      const aUrl = `https://maps.apple.com/?saddr=${startPoint[1]},${startPoint[0]}`
-        + `&daddr=${encodeURIComponent(appleStr)}`;
-
-      const gLinkEl = document.createElement('a');
-      gLinkEl.href = gUrl;
-      gLinkEl.target = '_blank';
-      gLinkEl.textContent = 'Open in Google Maps';
-      pLinks.appendChild(gLinkEl);
-
-      pLinks.appendChild(document.createElement('br'));
-
-      const aLinkEl = document.createElement('a');
-      aLinkEl.href = aUrl;
-      aLinkEl.target = '_blank';
-      aLinkEl.textContent = 'Open in Apple Maps';
-      pLinks.appendChild(aLinkEl);
-
+      const wpStr = currentWaypoints.map(wp => `${wp.lat},${wp.lng}`).join('|');
+      const appleStr = [...currentWaypoints.map(wp => `${wp.lat},${wp.lng}`), `${endPoint[1]},${endPoint[0]}`].join('+to:');
+      const gUrl = `https://www.google.com/maps/dir/?api=1&origin=${startPoint[1]},${startPoint[0]}&destination=${endPoint[1]},${endPoint[0]}&waypoints=${encodeURIComponent(wpStr)}`;
+      const aUrl = `https://maps.apple.com/?saddr=${startPoint[1]},${startPoint[0]}&daddr=${encodeURIComponent(appleStr)}`;
+      const gLinkEl = document.createElement('a'); gLinkEl.href = gUrl; gLinkEl.target = '_blank'; gLinkEl.textContent = 'Open in Google Maps';
+      const aLinkEl = document.createElement('a'); aLinkEl.href = aUrl; aLinkEl.target = '_blank'; aLinkEl.textContent = 'Open in Apple Maps';
+      pLinks.appendChild(gLinkEl); pLinks.appendChild(document.createElement('br')); pLinks.appendChild(aLinkEl);
       outputDiv.appendChild(pLinks);
     }
 
+    // —— GENERATE ROUTE —— 
+    document.getElementById('routeForm').addEventListener('submit', async e => {
+      e.preventDefault();
+      if (routeLayer) map.removeLayer(routeLayer);
+      detourLayer.clearLayers();
+      waypointList.innerHTML = '';
+      outputDiv.innerText = 'Calculating…';
+      try {
+        if (!startPoint || !endPoint) {
+          alert('Please select start and end locations');
+          return;
+        }
+        const routeGeo = await fetchRouteGeo([startPoint, endPoint]);
+        const baseTime = routeGeo.features[0].properties.summary.duration;
+        lastBaseTime = baseTime;
+        routeLayer = L.geoJSON(routeGeo, { color: 'blue', weight: 3 }).addTo(map);
+
+        // detour candidates
+        const coords = routeGeo.features[0].geometry.coordinates;
+        const lats = coords.map(c => c[1]), lngs = coords.map(c => c[0]);
+        const pad = 0.1;
+        const minLat = Math.min(...lats) - pad, maxLat = Math.max(...lats) + pad;
+        const minLng = Math.min(...lngs) - pad, maxLng = Math.max(...lngs) + pad;
+        const candidates = allPOIs.filter(f => {
+          const [lng, lat] = f.geometry.coordinates;
+          return lat >= minLat && lat <= maxLat && lng >= minLng && lng <= maxLng;
+        });
+
+        const valid = [];
+        for (let i = 0; i < candidates.length; i += 5) {
+          const chunk = candidates.slice(i, i + 5);
+          await Promise.all(chunk.map(async f => {
+            if (!f.geometry || !f.properties) return;
+            const [lng, lat] = f.geometry.coordinates;
+            try {
+              const toDur = await getDuration([startPoint, [lng, lat]]);
+              const frDur = await getDuration([[lng, lat], endPoint]);
+              const det = (toDur !== Infinity && frDur !== Infinity)
+                        ? toDur + frDur - baseTime
+                        : Infinity;
+              if (det <= +(detourInput.value || 20) * 60) {
+                valid.push({ lat, lng, name: f.properties.NAME || 'Unnamed', detour: det });
+                L.circleMarker([lat, lng], { radius: 6, color: 'green' })
+                .addTo(detourLayer)
+                .bindPopup(f.properties.NAME || 'Unnamed');
+              }
+            } catch { }
+          }));
+          await sleep(200);
+        }
+
+        currentWaypoints = valid.slice();
+        await updateShareLinksAndUI(baseTime);
+      } catch (err) {
+        console.error(err);
+        outputDiv.innerText = 'Error: ' + err.message;
+      }
+    });
+
+    // Add event listeners for the buttons
+    clearBtn.addEventListener('click', () => {
+      if (routeLayer) map.removeLayer(routeLayer);
+      detourLayer.clearLayers();
+      if (startMarker) map.removeLayer(startMarker);
+      if (endMarker)   map.removeLayer(endMarker);
+      startInput.value = '';
+      endInput.value   = '';
+      outputDiv.innerHTML = '';
+      waypointList.innerHTML = '';
+      currentWaypoints = [];
+      startPoint = endPoint = null;
+    });
 
     addByNameBtn.addEventListener('click', async () => {
       const name = document.getElementById('addName').value.trim();
@@ -314,83 +450,9 @@
       const addr = document.getElementById('addAddress').value.trim();
       if (!addr) return alert('Enter an address.');
       let coords;
-      try { coords = await geocode(addr); }
-      catch(e) { return alert('Geocode failed: ' + e.message); }
+      try { coords = await geocode(addr); } catch(e) { return alert('Geocode failed: ' + e.message); }
       const [lng, lat] = coords;
       await addWaypoint(lat, lng, addr);
     });
 
-    document.getElementById('clearBtn').addEventListener('click', () => {
-      if (routeLayer) map.removeLayer(routeLayer);
-      detourLayer.clearLayers();
-      if (startMarker) map.removeLayer(startMarker);
-      if (endMarker)   map.removeLayer(endMarker);
-      startInput.value = '';
-      endInput.value   = '';
-      outputDiv.innerHTML = '';
-      waypointList.innerHTML = '';
-      currentWaypoints = [];
-      startPoint = endPoint = null;
-      clickTarget = 'start';
-    });
-
-    document.getElementById('routeForm').addEventListener('submit', async e => {
-      e.preventDefault();
-      if (routeLayer) map.removeLayer(routeLayer);
-      detourLayer.clearLayers();
-      waypointList.innerHTML = '';
-      outputDiv.innerText = 'Calculating…';
-
-      try {
-        if (!startPoint) startPoint = await geocode(startInput.value.trim());
-        if (!endPoint)   endPoint   = await geocode(endInput.value.trim());
-
-        const routeGeo = await fetchRouteGeo([ startPoint, endPoint ]);
-        const baseTime = routeGeo.features[0].properties.summary.duration;
-        lastBaseTime = baseTime;
-        routeLayer = L.geoJSON(routeGeo, { color:'blue', weight:3 }).addTo(map);
-
-        const coords = routeGeo.features[0].geometry.coordinates;
-        const lats = coords.map(c=>c[1]), lngs = coords.map(c=>c[0]);
-        const pad = 0.1;
-        const minLat = Math.min(...lats)-pad, maxLat = Math.max(...lats)+pad;
-        const minLng = Math.min(...lngs)-pad, maxLng = Math.max(...lngs)+pad;
-        const candidates = allPOIs.filter(f => {
-          const [lng,lat] = f.geometry.coordinates;
-          return lat>=minLat && lat<=maxLat && lng>=minLng && lng<=maxLng;
-        });
-
-        const valid = [];
-        for (let i=0; i<candidates.length; i+=5) {
-          const chunk = candidates.slice(i,i+5);
-          await Promise.all(chunk.map(async f => {
-            if (!f.geometry||!f.properties) return;
-            const [lng,lat] = f.geometry.coordinates;
-            const name = f.properties.NAME || 'Unnamed';
-            try {
-              const toDur = await getDuration([ startPoint, [lng,lat] ]);
-              const frDur = await getDuration([ [lng,lat], endPoint ]);
-              const det = (toDur!==Infinity && frDur!==Infinity)
-                        ? toDur + frDur - baseTime
-                        : Infinity;
-              if (det <= +(detourInput.value||20)*60) {
-                valid.push({ lat, lng, name, detour: det });
-                L.circleMarker([lat, lng], { radius:6, color:'green' })
-                 .addTo(detourLayer)
-                 .bindPopup(name);
-              }
-            } catch {}
-          }));
-          await sleep(200);
-        }
-
-        currentWaypoints = valid.slice();
-        await updateShareLinksAndUI(baseTime);
-      } catch(err) {
-        console.error(err);
-        outputDiv.innerText = 'Error: ' + err.message;
-      }
-    });
-  </script>
-</body>
-</html>
+</script>
