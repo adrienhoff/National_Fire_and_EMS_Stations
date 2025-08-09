@@ -6,178 +6,202 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Leaflet CSS & JS -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
- <style>
-  body, html { 
-    margin: 0; 
-    padding: 0; 
-    height: 100%; 
-    font-family: Arial, sans-serif;
-    color: white;  /* Make all text white */
-    background-color: #000; /* Optional: make the background black */
-  }
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
+      background-color: #000;
+    }
+    #map { height: 100vh; width: 100%; }
 
-  /* Map Styling */
-  #map { 
-    height: 100vh; 
-    width: 100%; 
-  }
-
-  /* Controls Panel Styling */
-  #controls { 
-    padding: 20px; 
-    background-color: #000000;
-    border-radius: 10px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(239, 237, 237, 0.1);
-    max-width: 350px;
-    width: 100%;
-  }
-
-  #controls h3 {
-    text-align: center;
-    color: #f8f8f8;
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-
-  /* Company Logo */
-  #controls img {
-    display: block;
-    margin: 0 auto 15px;
-    max-width: 100px; /* Adjust this based on the actual size of your logo */
-  }
-
-  .form-group {
-    margin-bottom: 15px;
-  }
-
-  /* Input Fields Styling */
-  input[type="text"], input[type="number"], button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 8px;
-    border: 1px solid #fffefe; /* White border */
-    margin: 5px 0;
-    background-color: #333; /* Black background for inputs */
-    color: white; /* White text inside the inputs */
-    box-sizing: border-box;
-  }
-
-  button {
-    background-color: #2980b9;
-    color: white;
-    cursor: pointer;
-  }
-
-  button:hover {
-    background-color: #3498db;
-  }
-
-  .waypoint-btns {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .waypoint-btns input {
-    width: 70%;
-    margin-right: 10px;
-  }
-
-  .waypoint-btns button {
-    margin-top: 10px;
-  }
-
-  #output {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #020202;
-    border-radius: 8px;
-    font-size: 14px;
-    color: #fdfeff; /* White text */
-  }
-
-  /* Responsive Design */
-  @media (max-width: 768px) {
+    /* Floating Panel */
     #controls {
-      max-width: 100%;
-      padding: 10px;
+      position: fixed;
+      top: 20px; left: 20px;
+      z-index: 1000;
+      background-color: #000;
+      border: 1px solid #2e2e2e;
+      border-radius: 12px;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+      width: 340px; min-width: 260px; min-height: 160px;
+      max-width: 90vw; max-height: 90vh;
+      resize: both; overflow: auto; box-sizing: border-box;
     }
 
-    .waypoint-btns input {
-      width: 100%;
-      margin-bottom: 10px;
+    /* Header (drag handle) */
+    .panel-header {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+      padding: 10px 12px; border-bottom: 1px solid #222; background: #0f0f0f;
+      border-radius: 12px 12px 0 0; cursor: move; user-select: none; touch-action: none;
     }
-  }
-</style>
+    .panel-left { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .logo-mini {
+      width: 24px; height: 24px; border-radius: 4px; object-fit: contain; background:#111;
+      border: 1px solid #222;
+    }
+    .panel-title {
+      font-size: 16px; font-weight: 600; color: #f8f8f8;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .panel-actions button {
+      appearance: none; background: transparent; color: #f0f0f0;
+      border: 1px solid #3a3a3a; border-radius: 8px; font-size: 14px; padding: 2px 8px; cursor: pointer;
+    }
+    .panel-actions button:hover { background: #1a1a1a; }
 
-  <!-- Controls Panel -->
-  <div id="controls">
-    <!-- Company Logo -->
-    <img src="C:\Users\ahoff\Downloads\IMG_6109.jpg" alt="Company Logo">
+    /* Body */
+    .panel-body { padding: 12px; }
+    .form-group { margin-bottom: 12px; }
 
-    <h3>Station Route Planner</h3>
-    <form id="routeForm">
-      <div class="form-group">
-        <input type="text" id="start" placeholder="Start address or click map" />
+    input[type="text"], input[type="number"], button {
+      width: 100%; padding: 10px; font-size: 16px; border-radius: 8px;
+      border: 1px solid #fffefe; margin: 5px 0; background-color: #333; color: white; box-sizing: border-box;
+    }
+    button { background-color: #2980b9; color: white; cursor: pointer; }
+    button:hover { background-color: #3498db; }
+
+    .waypoint-btns { display: flex; flex-direction: column; }
+    .waypoint-btns button { margin-top: 10px; }
+
+    #output {
+      margin-top: 12px; padding: 10px; background-color: #020202;
+      border-radius: 8px; font-size: 14px; color: #fdfeff;
+    }
+
+    /* Waypoint rows: inline name + tiny remove button */
+    #waypointList { margin-top: 6px; }
+    .wp-row {
+      display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
+    }
+    .wp-name {
+      flex: 1 1 auto; min-width: 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .wp-remove-link {
+      flex: 0 0 auto;
+      font-size: 12px;
+      margin-left: 4px;
+      background: none;
+      border: 0;
+      color: #8bbcff;           /* readable on dark */
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .wp-remove-link:hover { text-decoration: none; }
+    .wp-remove-link:focus-visible { outline: 2px solid #8bbcff; outline-offset: 2px; }
+
+    #controls.minimized {
+      width: auto !important;
+      height: auto !important;
+      min-width: 0 !important;   /* override 260px */
+      min-height: 0 !important;
+      resize: none;
+      overflow: visible;
+    }
+
+    #controls.minimized .panel-body {
+      display: none;              /* hide everything below the header */
+    }
+
+    /* Optional: tighter header when minimized */
+    #controls.minimized .panel-header {
+      padding: 6px 8px;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      #controls { width: 92vw; left: 4vw; right: 4vw; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Controls -->
+  <div id="controls" aria-live="polite">
+    <div class="panel-header" id="panelHeader" title="Drag to move. Double-click to minimize/restore.">
+      <div class="panel-left">
+        <!-- Mini logo stays visible even when minimized -->
+        <img id="logoMini" class="logo-mini" src="https://github.com/adrienhoff/National_Fire_and_EMS_Stations/blob/main/IMG_6109.jpg?raw=true" alt="Logo" />
+        <div class="panel-title">Station Route Planner</div>
       </div>
-      <div class="form-group">
-        <input type="text" id="end" placeholder="End address or click map" />
+      <div class="panel-actions">
+        <button id="minBtn" aria-expanded="true" title="Minimize">–</button>
       </div>
-      <div class="form-group">
-        <label for="detour">Max Detour (min):</label>
-        <input type="number" id="detour" min="0" value="20" />
-      </div>
-      <button type="submit">Generate Route</button>
-    </form>
-
-    <button type="button" id="clearBtn">Clear Route</button>
-
-    <div class="waypoint-btns">
-      <strong>Waypoints:</strong>
-      <div id="waypointList"></div>
-
-      <input list="poiNames" id="addName" placeholder="Station name" />
-      <datalist id="poiNames"></datalist>
-      <button type="button" id="addByNameBtn">Add by Name</button>
-
-      <input type="text" id="addAddress" placeholder="Address" />
-      <button type="button" id="addByAddressBtn">Add Address</button>
     </div>
 
-    <div id="output"></div>
+    <div class="panel-body" id="panelBody">
+      <!-- Full-size logo inside body (hidden when minimized) -->
+      <img id="logoMain" src="https://github.com/adrienhoff/National_Fire_and_EMS_Stations/blob/main/IMG_6109.jpg?raw=true" alt="Company Logo"
+           style="display:block;margin:0 auto 10px;max-width:100px;opacity:.9" />
+
+      <form id="routeForm">
+        <div class="form-group">
+          <input type="text" id="start" placeholder="Start address or click map" />
+        </div>
+        <div class="form-group">
+          <input type="text" id="end" placeholder="End address or click map" />
+        </div>
+        <div class="form-group">
+          <label for="detour">Max Detour (min):</label>
+          <input type="number" id="detour" min="0" value="20" />
+        </div>
+        <button type="submit">Generate Route</button>
+      </form>
+
+      <button type="button" id="clearBtn">Clear Route</button>
+
+      <div class="waypoint-btns">
+        <strong>Waypoints:</strong>
+        <div id="waypointList"></div>
+
+        <input list="poiNames" id="addName" placeholder="Station name" />
+        <datalist id="poiNames"></datalist>
+        <button type="button" id="addByNameBtn">Add by Name</button>
+
+        <input type="text" id="addAddress" placeholder="Address" />
+        <button type="button" id="addByAddressBtn">Add Address</button>
+      </div>
+
+      <div id="output"></div>
+    </div>
   </div>
 
   <!-- Map -->
   <div id="map"></div>
-
   <script>
-    // —— CONFIG —— 
+    // —— CONFIG ——
     const ORS_API_KEY = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImEzMGQ1Y2Q3MDFiZjRhN2NhZTBhZTcyZTZlNGIzZGQ3IiwiaCI6Im11cm11cjY0In0=';
     const FS_URL = 'https://services3.arcgis.com/hFCLLQcFT7NdwqpA/arcgis/rest/services/Fire_and_Emergency_Medical_Service_(EMS)_Station_(2)/FeatureServer/0/query';
     const PAGE_SIZE = 2000;
 
-    // —— HELPERS —— 
-    function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-    function formatDuration(sec) {
+    // —— HELPERS ——
+    function sleep(ms){ return new Promise(r => setTimeout(r, ms)); }
+    function formatDuration(sec){
       const h = Math.floor(sec / 3600), m = Math.round((sec % 3600) / 60);
       return `${h} h ${m} m`;
     }
 
-    // —— MAP SETUP —— 
+    // (Tiny geocoder so Add Address works if you didn't define one elsewhere)
+    async function geocode(q){
+      const res = await fetch('https://nominatim.openstreetmap.org/search?format=json&q=' + encodeURIComponent(q), {
+        headers: { 'Accept-Language': 'en' }
+      });
+      const j = await res.json();
+      if (!Array.isArray(j) || j.length === 0) throw new Error('Address not found');
+      return [parseFloat(j[0].lon), parseFloat(j[0].lat)];
+    }
+
+    // —— MAP SETUP ——
     const map = L.map('map').setView([39.75, -105], 8);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    // —— STATE —— 
+    // —— STATE ——
     let routeLayer = null;
     const detourLayer = L.layerGroup().addTo(map);
     let startPoint = null, endPoint = null;
@@ -185,7 +209,7 @@
     let clickTarget = 'start';
     let allPOIs = [], currentWaypoints = [], lastBaseTime = 0;
 
-    // —— DOM REFS —— 
+    // —— DOM REFS ——
     const startInput  = document.getElementById('start');
     const endInput    = document.getElementById('end');
     const detourInput = document.getElementById('detour');
@@ -196,7 +220,7 @@
     const addByAddressBtn = document.getElementById('addByAddressBtn');
     const clearBtn = document.getElementById('clearBtn');
 
-    // —— CLICK MAP TO SET START/END —— 
+    // —— CLICK MAP TO SET START/END ——
     map.on('click', e => {
       const { lat, lng } = e.latlng;
       if (clickTarget === 'start') {
@@ -213,7 +237,7 @@
       clickTarget = clickTarget === 'start' ? 'end' : 'start';
     });
 
-    // —— LOAD POIs —— 
+    // —— LOAD POIs ——
     async function fetchAllPOIs() {
       let feats = [], offset = 0;
       while (true) {
@@ -248,7 +272,7 @@
     }
     loadPOIs();
 
-    // —— ORS DURATION —— 
+    // —— ORS DURATION ——
     async function getDuration(coords) {
       const url = 'https://api.openrouteservice.org/v2/directions/driving-car/json';
       const body = JSON.stringify({ coordinates: coords });
@@ -274,15 +298,13 @@
       throw new Error('ORS retry limit');
     }
 
-    // —— ORS GEOJSON —— 
+    // —— ORS GEOJSON ——
     async function fetchRouteGeo(coords) {
-      const res = await fetch(
-        'https://api.openrouteservice.org/v2/directions/driving-car/geojson', {
-          mode: 'cors', method: 'POST',
-          headers: { 'Authorization': ORS_API_KEY, 'Content-Type': 'application/json' },
-          body: JSON.stringify({ coordinates: coords })
-        }
-      );
+      const res = await fetch('https://api.openrouteservice.org/v2/directions/driving-car/geojson', {
+        mode: 'cors', method: 'POST',
+        headers: { 'Authorization': ORS_API_KEY, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ coordinates: coords })
+      });
       if (!res.ok) {
         const p = await res.json().catch(() => ({}));
         throw new Error('ORS geo error ' + (p.error?.code || res.status));
@@ -290,64 +312,64 @@
       return res.json();
     }
 
-    // —— ADD WAYPOINT —— 
+    // —— ADD WAYPOINT ——
     async function addWaypoint(lat, lng, name) {
       if (!startPoint || !endPoint) return alert('Set both start and end before adding waypoints');
       let detour = 0;
       try {
         const toDur = await getDuration([startPoint, [lng, lat]]);
         const frDur = await getDuration([[lng, lat], endPoint]);
-        detour = (toDur !== Infinity && frDur !== Infinity)
-              ? toDur + frDur - lastBaseTime
-              : 0;
-      } catch {
-        detour = 0;
-      }
+        detour = (toDur !== Infinity && frDur !== Infinity) ? toDur + frDur - lastBaseTime : 0;
+      } catch { detour = 0; }
       currentWaypoints.push({ lat, lng, name, detour });
-      L.circleMarker([lat, lng], { radius: 6, color: 'orange' })
-      .addTo(detourLayer)
-      .bindPopup(name);
+      L.circleMarker([lat, lng], { radius: 6, color: 'orange' }).addTo(detourLayer).bindPopup(name);
       await updateShareLinksAndUI(lastBaseTime);
     }
 
-    // —— UPDATE UI & LINKS —— 
     async function updateShareLinksAndUI(baseTime) {
       waypointList.innerHTML = '';
       outputDiv.innerHTML = '';
+
       currentWaypoints.forEach((wp, idx) => {
-        const div = document.createElement('div');
-        div.textContent = `${wp.name} (${wp.lat.toFixed(5)}, ${wp.lng.toFixed(5)})`;
-        const btn = document.createElement('button');
-        btn.textContent = 'Remove';
-        btn.onclick = () => {
+        const row = document.createElement('div');
+        row.className = 'wp-row';
+
+        const name = document.createElement('span');
+        name.className = 'wp-name';
+        name.textContent = `${wp.name} (${wp.lat.toFixed(5)}, ${wp.lng.toFixed(5)})`;
+
+        const remove = document.createElement('a');
+        remove.href = '#';
+        remove.className = 'wp-remove-link';
+        remove.setAttribute('aria-label', `Remove ${wp.name}`);
+        remove.textContent = 'remove';
+        remove.addEventListener('click', (ev) => {
+          ev.preventDefault();
+          // remove marker from map
           detourLayer.eachLayer(layer => {
             const ll = layer.getLatLng?.();
             if (ll && Math.abs(ll.lat - wp.lat) < 1e-6 && Math.abs(ll.lng - wp.lng) < 1e-6) {
               detourLayer.removeLayer(layer);
             }
           });
+          // remove from list and refresh UI
           currentWaypoints.splice(idx, 1);
           updateShareLinksAndUI(baseTime);
-        };
-        div.appendChild(btn);
-        waypointList.appendChild(div);
+        });
+
+        row.appendChild(name);
+        row.appendChild(remove);
+        waypointList.appendChild(row);
       });
 
-      const detourDrivingTime = currentWaypoints.reduce((sum, wp) => sum + (wp.detour || 0), 0);
-      const pBase = document.createElement('p');
-      pBase.innerHTML = `Base drive time: <strong>${formatDuration(baseTime)}</strong>`;
-      outputDiv.appendChild(pBase);
-      const pDetour = document.createElement('p');
-      pDetour.innerHTML = `Detour driving time: <strong>${formatDuration(detourDrivingTime)}</strong>`;
-      outputDiv.appendChild(pDetour);
-      const pOver = document.createElement('p');
-      pOver.innerHTML = `Stops overhead: <strong>${formatDuration(currentWaypoints.length * 3600)}</strong>`;
-      outputDiv.appendChild(pOver);
 
-      const totalTime = baseTime + detourDrivingTime + currentWaypoints.length;
-      const pTotal = document.createElement('p');
-      pTotal.innerHTML = `Total estimated time: <strong>${formatDuration(totalTime)}</strong>`;
-      outputDiv.appendChild(pTotal);
+      const detourDrivingTime = currentWaypoints.reduce((sum, wp) => sum + (wp.detour || 0), 0);
+      const pBase = document.createElement('p');    pBase.innerHTML = `Base drive time: <strong>${formatDuration(baseTime)}</strong>`;
+      const pDetour = document.createElement('p');  pDetour.innerHTML = `Detour driving time: <strong>${formatDuration(detourDrivingTime)}</strong>`;
+      const pOver = document.createElement('p');    pOver.innerHTML = `Stops overhead: <strong>${formatDuration(currentWaypoints.length * 3600)}</strong>`;
+      const totalTime = baseTime + detourDrivingTime + currentWaypoints.length; // (kept as in your code)
+      const pTotal = document.createElement('p');   pTotal.innerHTML = `Total estimated time: <strong>${formatDuration(totalTime)}</strong>`;
+      outputDiv.appendChild(pBase); outputDiv.appendChild(pDetour); outputDiv.appendChild(pOver); outputDiv.appendChild(pTotal);
 
       // Links
       const pLinks = document.createElement('p');
@@ -361,7 +383,7 @@
       outputDiv.appendChild(pLinks);
     }
 
-    // —— GENERATE ROUTE —— 
+    // —— GENERATE ROUTE ——
     document.getElementById('routeForm').addEventListener('submit', async e => {
       e.preventDefault();
       if (routeLayer) map.removeLayer(routeLayer);
@@ -378,7 +400,7 @@
         lastBaseTime = baseTime;
         routeLayer = L.geoJSON(routeGeo, { color: 'blue', weight: 3 }).addTo(map);
 
-        // detour candidates
+        // detour candidates (bbox around route)
         const coords = routeGeo.features[0].geometry.coordinates;
         const lats = coords.map(c => c[1]), lngs = coords.map(c => c[0]);
         const pad = 0.1;
@@ -398,16 +420,12 @@
             try {
               const toDur = await getDuration([startPoint, [lng, lat]]);
               const frDur = await getDuration([[lng, lat], endPoint]);
-              const det = (toDur !== Infinity && frDur !== Infinity)
-                        ? toDur + frDur - baseTime
-                        : Infinity;
+              const det = (toDur !== Infinity && frDur !== Infinity) ? toDur + frDur - baseTime : Infinity;
               if (det <= +(detourInput.value || 20) * 60) {
                 valid.push({ lat, lng, name: f.properties.NAME || 'Unnamed', detour: det });
-                L.circleMarker([lat, lng], { radius: 6, color: 'green' })
-                .addTo(detourLayer)
-                .bindPopup(f.properties.NAME || 'Unnamed');
+                L.circleMarker([lat, lng], { radius: 6, color: 'green' }).addTo(detourLayer).bindPopup(f.properties.NAME || 'Unnamed');
               }
-            } catch { }
+            } catch {}
           }));
           await sleep(200);
         }
@@ -420,7 +438,7 @@
       }
     });
 
-    // Add event listeners for the buttons
+    // Buttons
     clearBtn.addEventListener('click', () => {
       if (routeLayer) map.removeLayer(routeLayer);
       detourLayer.clearLayers();
@@ -455,4 +473,65 @@
       await addWaypoint(lat, lng, addr);
     });
 
-</script>
+    // —— FLOATING PANEL BEHAVIOR (drag + minimize) ——
+    (function initFloatingPanel(){
+      const panel  = document.getElementById('controls');
+      const header = document.getElementById('panelHeader');
+      const minBtn = document.getElementById('minBtn');
+      let isDown = false, startX = 0, startY = 0, startLeft = 0, startTop = 0;
+
+      function clamp(val, min, max){ return Math.max(min, Math.min(max, val)); }
+
+      header.addEventListener('pointerdown', (e) => {
+        // ignore when clicking buttons in header
+        if (e.target.closest('.panel-actions')) return;
+        isDown = true;
+        panel.classList.add('dragging');
+        header.setPointerCapture(e.pointerId);
+        startX = e.clientX;
+        startY = e.clientY;
+        const rect = panel.getBoundingClientRect();
+        startLeft = rect.left;
+        startTop  = rect.top;
+      });
+
+      header.addEventListener('pointermove', (e) => {
+        if (!isDown) return;
+        const dx = e.clientX - startX;
+        const dy = e.clientY - startY;
+        const newLeft = clamp(startLeft + dx, 0, window.innerWidth - 40); // keep some part visible
+        const newTop  = clamp(startTop + dy, 0, window.innerHeight - 40);
+        panel.style.left = `${newLeft}px`;
+        panel.style.top  = `${newTop}px`;
+        panel.style.right = 'auto';
+        panel.style.bottom = 'auto';
+      });
+
+      header.addEventListener('pointerup', (e) => {
+        isDown = false;
+        panel.classList.remove('dragging');
+        header.releasePointerCapture?.(e.pointerId);
+      });
+
+      // Minimize / restore
+      function toggleMin(){
+        const isMin = panel.classList.toggle('minimized');
+        minBtn.textContent = isMin ? '▣' : '–';
+        minBtn.title = isMin ? 'Restore' : 'Minimize';
+        minBtn.setAttribute('aria-expanded', String(!isMin));
+      }
+      minBtn.addEventListener('click', toggleMin);
+      header.addEventListener('dblclick', toggleMin);
+
+      // Keep panel in viewport on resize
+      window.addEventListener('resize', () => {
+        const rect = panel.getBoundingClientRect();
+        const left = clamp(rect.left, 0, Math.max(0, window.innerWidth - rect.width));
+        const top  = clamp(rect.top, 0, Math.max(0, window.innerHeight - rect.height));
+        panel.style.left = `${left}px`;
+        panel.style.top  = `${top}px`;
+      });
+    })();
+  </script>
+</body>
+</html>
